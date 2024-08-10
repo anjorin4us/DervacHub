@@ -50,11 +50,11 @@ export default defineComponent({
             <!-- The button imported from another file -->
             <div class="flex gap-12 md:flex-row flex-col md:w-fit w-full mx-auto lg:mx-0">
                 <router-link to="/courses">
-                    <component is="Button" value="Become a tech expert" class="min-[1170px]:text-[15px] text-[12px]  min-[1237px]:text-[17px] md:w-fit w-full px-8 rounded-[10px] py-5" :class="hovering == 0? 'bg-[#102539] text-white' : 'border border-1 border-gray-300 text-[#224c75]'"></component>
+                    <component is="Button" value="Become a tech expert" class="min-[1170px]:text-[15px] text-[12px]  min-[1237px]:text-[17px] md:w-fit w-full px-8 rounded-[10px] py-5 transition-all duration-1000 ease-in-out" :class="hovering == 0? 'bg-[#102539] text-white' : 'border border-1 border-gray-300 text-[#224c75]'"></component>
                 </router-link>
                 
                 <router-link to="/testimonials">
-                    <component is="Button" value="Testimonials" class="min-[1170px]:text-[15px] text-[12px] min-[1237px]:text-[18px] md:w-fit w-full px-8 rounded-[10px] py-5" :class="hovering == 1? 'bg-[#102539] text-white' : 'border border-1 border-gray-300 text-[#224c75]'" @mouseover="hovering = 1" @mouseleave="hovering = 0"></component>
+                    <component is="Button" value="Testimonials" class="min-[1170px]:text-[15px] text-[12px] min-[1237px]:text-[18px] md:w-fit w-full px-8 rounded-[10px] py-5 transition-all duration-1000 ease-in-out" :class="hovering == 1? 'bg-[#102539] text-white' : 'border border-1 border-gray-300 text-[#224c75]'" @mouseover="hovering = 1" @mouseleave="hovering = 0"></component>
                 </router-link>
                 <!-- max-[1285px]:items-center -->
             </div>

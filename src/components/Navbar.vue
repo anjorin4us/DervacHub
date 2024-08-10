@@ -162,11 +162,11 @@ export default defineComponent({
 
                     <div id="buttons" class="lg:flex gap-8 space-x-8 space-y-4 lg:space-y-0 lg:space-x-0 py-4 lg:py-0 items-center" @click="() => { dropAboutUsOptions = false}">
                         <a href="https://forms.gle/xrLRkPCv5n5adXqo7" target="_blank">
-                            <component is="Button" value="Hire" class="rounded-[8px] py-3 px-6 md:text-[18px]" :class="hovering == 1? 'bg-[#102539] text-white' : 'border border-1 border-gray-300 text-[#224c75]'" @mouseover="hovering = 1" @mouseleave="hovering = 0"></component>
+                            <component is="Button" value="Hire" class="rounded-[8px] py-3 px-6 md:text-[18px] transition-all duration-1000 ease-in-out" :class="hovering == 1? 'bg-[#102539] text-white' : 'border border-1 border-gray-300 text-[#224c75]'" @mouseover="hovering = 1" @mouseleave="hovering = 0"></component>
                         </a>
 
                         <a href="https://fellow.dervac.com" target="_blank">
-                            <component is="Button" value="Apply Now" class="relative left-[-15px] rounded-[8px] py-3 px-6 md:text-[18px]" :class="hovering == 0? 'bg-[#102539] text-white' : 'border border-1 border-gray-300 text-[#224c75]'"></component>
+                            <component is="Button" value="Apply Now" class="relative left-[-15px] rounded-[8px] py-3 px-6 md:text-[18px] transition-all duration-1000 ease-in-out" :class="hovering == 0? 'bg-[#102539] text-white' : 'border border-1 border-gray-300 text-[#224c75]'"></component>
                         </a>
 
                         <!-- #102539 -->
