@@ -2,8 +2,6 @@
 import { defineComponent } from 'vue';
 import Button from './Button.vue';
 import elementStore from '../stores/store';
-// import elementStores from '../../stores/store';
-
 
 
 export default defineComponent({
@@ -35,7 +33,6 @@ export default defineComponent({
 
 
                 <!-- links to other pages -->
-
                 <div id="links" class="lg:flex list-none justify-between text-[14px] lg:gap-8 font-medium text-[#224c75] lg:relative lg:top-[0px] lg:left-[0px] absolute top-[70px] w-full lg:bg-white bg-[#f4dde2] rounded-xl lg:rounded-[0] z-50" :class="!drop ? 'left-[-1400px]' : 'left-[0]'" transition-right duration-900>
 
                 

@@ -169,28 +169,70 @@ export default function elementStores() {
             testifier: 0,
             testimonials: [
                 {
-                    name: 'Fellow Zakariyyah Okeyale ',
+                    name: 'Zakariyyah Okeyale ',
                     occupation: 'Front-End Dev.',
                     speech: 'I had an incredible experience at Dervac Hub!  The comprehensive curriculum, hands-on projects and knowledgeable instructors made learning complex concepts a breeze. The practical approach to teaching ensured that I not only understood the theory but could also apply it in real-world scenarios. Am excited about the opportunities ahead. I highly recommend Dervac Hub to anyone looking to kickstart or enhance their career in technology.',
-                    image: '../assets/others/alfa-zakariyyah.jpg'
+                    image: '/alfa-Zakariyyah.jpg'
                 },
                 {
-                    name: 'Fellow Hammed Sanni',
+                    name: 'Hammed Sanni',
                     occupation: 'Front-End Dev.',
                     speech: 'At Dervac, we believe that everyone deserves the opportunity to pursue their dreams without the burden of the debt. Created a program that puts you in control of your education and career sapiente, quia ab commodi veniam. Reiciendis neque dignissimos voluptatem modi est at! Architecto deleniti sa',
-                    image: '../assets/testimonial-2.jpg'
+                    image: '/testimonial-2.jpg'
                 },
                 {
-                    name: 'Fellow Balkis Taiwo ',
+                    name: 'Balkis Taiwo ',
                     occupation: 'Front-End Dev.',
                     speech: 'Reflecting on my time at Dervac Hub, I am grateful for the experience I gained as an IT personnel and web developer intern. The combination of troubleshooting IT issues and crafting innovative web solutions has equipped me with a versatile skill set that I am eager to leverage in my future career endeavors.',
-                    image: '../assets/others/balkis.jpg'
+                    image: '/Balkis.jpg'
                 },
                 {
-                    name: 'Fellow Yusuf Olatunji',
+                    name: 'Yusuf Olatunji',
                     occupation: 'Front-End Dev.',
                     speech: "I would like to use this medium to thank DERVAC for their wonderful contribution. I just wanted to share a quick note and let you know that  DERVAC is the best place to learn.   I'm so glad that I am part of the team. I always thought that Web Dev is hard to learn but you prove me wrong. Thanks, Jaza kumu lahu khairan.",
-                    image: '../assets/others/agba.jpg'
+                    image: '/agba.jpg'
+                },
+                {
+                    name: 'Ibrahim Akande',
+                    occupation: "Front-End Dev.",
+                    speech: "I had the privilege of learning and growing at Dervac Global Services Limited, and I must say, it was a truly transformative experience. The team's dedication to mentoring and guidance helped me develop my coding skills from scratch. I am forever grateful for the opportunity to have been a part of this amazing team and I highly recommend Dervac Global Services Limited to anyone looking to kickstart their coding journey!",
+                    image: '',
+                },
+                {
+                    name: "Sulaiman Dosu",
+                    occupation: "Front-End Dev.",
+                    speech: "I've had an incredible experience in the frontend program at DERVAC GLOBAL SERVICES LIMITED! The curriculum was comprehensive and challenging, but the support from the instructors and peers was top-notch. I loved how hands-on the projects were, and how quickly I was able to apply what I learned to real-world scenarios. The program not only taught me valuable skills, but also gave me the confidence to pursue a career in tech. I'm so grateful for the opportunity and would highly recommend it to anyone looking to start or advance their journey in frontend development. Thank you for an amazing experience!",
+                    image: "",
+                },
+                {
+                    name: "Adebayo Nofisat",
+                    occupation: "Front-End Dev.",
+                    speech: "Dervac Global Services Limited ignited my coding journey! With their expert guidance and supportive environment, I gained the skills and confidence to succeed. I'm forever grateful for the opportunity to have learned and grown with this amazing team!",
+                    image: ""
+                },
+                {
+                    name: "Stanley Meruo",
+                    occupation: "Front-End Dev.",
+                    speech: "I would like to express my gratitude for this career journey I took. It has been an enriching experience, and I have gained a substantial amount of knowledge and skills in frontend development at DERVAC GLOBAL SERVICES, significantly improved my skills and confidence in frontend development, and I feel well-prepared to tackle future projects.",
+                    image: ""
+                },
+                {
+                    name: "AbdWaris Jimoh",
+                    occupation: "Front-End Dev.",
+                    speech: "I'm so grateful to Dervac for helping me achieve my dream. I was a complete beginner, but they broke everything down in a way that made sense to me. Their teaching style is clear, concise, and patient. They encouraged me to keep practicing, even when it got tough. And now, I'm proud to say that I'm a frontend developer! Dervac's guidance and support have opened up new career opportunities for me. I can't recommend them enough. If you want to learn coding, look no further than Dervac. They're the best!",
+                    image: ""
+                },
+                {
+                    name: "Lawal Maryam",
+                    occupation: "Front-End Dev.",
+                    speech: "I'm thrilled to be a part of the Dervac Global Services team! The company's commitment to excellence, innovation, and customer satisfaction is inspiring. The supportive work environment, opportunities for growth, and collaborative culture have helped me grow both professionally and personally. I'm impressed by the company's dedication to delivering top-notch services and exceeding client expectations. Dervac Global Services truly cares about its employees and clients, making it a fantastic place to work and build a career. I feel proud to be a part of this talented team!",
+                    image: ""
+                },
+                {
+                    name: "Mukhtar Lawal",
+                    occupation: "Front-End Dev.",
+                    speech: "we  give thank to Almighty ALLAH may the peace and bless be upon the noble prophet rosullahi s.a.w , that let this journey to be a successful one for us in this tech era, by unlocking our potential @dervacHUB to acquire a skill of being a frontend developer in the cohort 4 fellowship program we really appreciate the management  with their effort, consistency, guide and the experience  @dervacHUB  by giving us the opportunity to acquire a skill and achieve our goal. may Almighty ALLAH reward and appreciate you for all you effort ameen.",
+                    image: ""
                 },
             ],
             showSummer: false,

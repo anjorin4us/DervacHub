@@ -22,10 +22,10 @@ export default defineComponent({
         <p class="">Join over 500+ students already growing with Dervac</p>
         <div class="flex gap-4 md:flex-row flex-col md:w-fit w-full">
             <router-link to="/courses">
-                <component is="Button" class="py-2 px-4 rounded-[5px]" value="Enroll for training" :class="hovering == 1? 'bg-[#102539] text-white' : 'bg-white text-[#224c75]'" @mouseover="hovering = 1" @mouseleave="hovering = 0">Enroll for training</component>
+                <component is="Button" class="py-2 px-4 transition-all duration-1000 ease-in-out rounded-[5px]" value="Enroll for training" :class="hovering == 1? 'bg-[#102539] text-white' : 'bg-white text-[#224c75]'" @mouseover="hovering = 1" @mouseleave="hovering = 0">Enroll for training</component>
             </router-link>
             <router-link to="/career">
-                <component is="Button" class="bg-[#224C75] py-2 px-4 rounded-[5px] md:w-fit w-full" value="Join Fellowship" :class="hovering == 0? 'bg-[#102539] text-white' : 'bg-white text-[#224c75]'">Join Fellowship</component>
+                <component is="Button" class="bg-[#224C75] transition-all duration-1000 ease-in-out py-2 px-4 rounded-[5px] md:w-fit w-full" value="Join Fellowship" :class="hovering == 0? 'bg-[#102539] text-white' : 'bg-white text-[#224c75]'">Join Fellowship</component>
             </router-link>
         </div>
 

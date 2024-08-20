@@ -18,10 +18,10 @@
             <p class="lg:text-xl text-[gray]">At Dervac, we believe that everyone deserves the opportunity to pursue their dreams without the burden of the debt. That's why we've created a program that puts you in control of your education and career. Explore the core aspects of frontend web development in this hands-on course. Learn HTML, CSS, and JavaScript to create engaging and responsive user interfaces. Develop the skills to build and style web content, add interactivity, and ensure optimal user experiences across devices. Perfect for beginners and those looking to strengthen their front-End skills. Our fellowship got you covered</p>
             <div class="flex gap-10">
                 <router-link to="/fellow">
-                    <p class="cursor-pointer w-fit rounded-md px-2 py-[5px] lg:px-6 lg:py-[10px]" :class="hovering == 1? 'bg-[#102539] text-white' : 'border border-1 border-gray-300 text-[#224c75]'" @mouseover="hovering = 1" @mouseleave="hovering = 0">Learn more</p>
+                    <p class="cursor-pointer w-fit rounded-md px-2 py-[5px] lg:px-6 lg:py-[10px] transition-all duration-1000 ease-in-out" :class="hovering == 1? 'bg-[#102539] text-white' : 'border border-1 border-gray-300 text-[#224c75]'" @mouseover="hovering = 1" @mouseleave="hovering = 0">Learn more</p>
                 </router-link>
                 <a href="https://fellow.dervac.com" target="_blank">
-                    <p class="cursor-pointer w-fit rounded-md px-2 py-[5px] lg:px-6 lg:py-[10px]" :class="hovering == 0? 'bg-[#102539] text-white' : 'border border-1 border-gray-300 text-[#224c75]'">Apply</p>
+                    <p class="cursor-pointer w-fit rounded-md px-2 py-[5px] lg:px-6 lg:py-[10px] transition-all duration-1000 ease-in-out" :class="hovering == 0? 'bg-[#102539] text-white' : 'border border-1 border-gray-300 text-[#224c75]'">Apply</p>
                 </a>
             </div>
         </div>
@@ -30,13 +30,13 @@
 
         <div class="relative flex flex-col items-center gap-6 w-full">
             <div class="flex items-end gap-6 md:flex-row flex-col">
-                <img src="./images/first-image-in-the-build-a-successful-tech-career-section.svg" class="z-10 w-full" alt="">
-                <img src="./images/second-image-in-the-build-a-successful-tech-career-section.svg" class="z-10 w-full" alt="">
+                <img src="./images/first-image-in-the-build-a-successful-tech-career-section.svg" class="z-10 w-full" alt="training image">
+                <img src="./images/second-image-in-the-build-a-successful-tech-career-section.svg" class="z-10 w-full" alt="training image">
             </div>
             <div class="flex md:flex-row items-start gap-6 flex-col">
-                <img src="./images/third-image-in-the-build-a-successful-tech-career-section.svg" class="z-10 w-full" alt="">
-                <img src="./images/fourth-image-in-the-build-a-successful-tech-career-section.svg" class="z-10 w-full" alt="">
-                <img src="./images/fifth-image-in-the-build-a-successful-tech-career-section.svg" class="z-10 w-full" alt="">
+                <img src="./images/third-image-in-the-build-a-successful-tech-career-section.svg" class="z-10 w-full" alt="training image">
+                <img src="./images/fourth-image-in-the-build-a-successful-tech-career-section.svg" class="z-10 w-full" alt="training image">
+                <img src="./images/fifth-image-in-the-build-a-successful-tech-career-section.svg" class="z-10 w-full" alt="training image">
             </div>
             <div class="w-[600px] h-[600px] border-2 border-[#224C75] rounded-[50%] absolute z-0 left-[480px] max-[1285px]:left-[600px]"></div>
         </div>
