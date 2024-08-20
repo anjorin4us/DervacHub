@@ -202,7 +202,7 @@ export default function elementStores() {
                     name: "Sulaiman Dosu",
                     occupation: "Front-End Dev.",
                     speech: "I've had an incredible experience in the frontend program at DERVAC GLOBAL SERVICES LIMITED! The curriculum was comprehensive and challenging, but the support from the instructors and peers was top-notch. I loved how hands-on the projects were, and how quickly I was able to apply what I learned to real-world scenarios. The program not only taught me valuable skills, but also gave me the confidence to pursue a career in tech. I'm so grateful for the opportunity and would highly recommend it to anyone looking to start or advance their journey in frontend development. Thank you for an amazing experience!",
-                    image: "",
+                    image: "/dosu.jpg",
                 },
                 {
                     name: "Adebayo Nofisat",
@@ -214,7 +214,7 @@ export default function elementStores() {
                     name: "Stanley Meruo",
                     occupation: "Front-End Dev.",
                     speech: "I would like to express my gratitude for this career journey I took. It has been an enriching experience, and I have gained a substantial amount of knowledge and skills in frontend development at DERVAC GLOBAL SERVICES, significantly improved my skills and confidence in frontend development, and I feel well-prepared to tackle future projects.",
-                    image: ""
+                    image: "/stanley.jpg"
                 },
                 {
                     name: "AbdWaris Jimoh",
