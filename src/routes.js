@@ -4,6 +4,7 @@ import { createRouter, createWebHistory } from 'vue-router';
 
 
 const router = createRouter({
+    mode: 'history',
     history: createWebHistory(),
     routes: [
         {
@@ -66,7 +67,14 @@ const router = createRouter({
             name: 'CO-WORKSPACE',
             component: () => import ('./components/coWorkSpace/mainCoWorkPage.vue')
         }
-    ]
+    ],
+    scrollBehavior(to, from, savedPosition) {
+        if (savedPosition) {
+          return savedPosition; // If returning to a previous page, it scrolls to the last position
+        } else {
+          return { left: 0, top: 0 }; // Always scroll to the top of the page
+        }
+        }
 })
 
 

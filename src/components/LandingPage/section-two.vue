@@ -20,7 +20,7 @@
                     <div class="flex lg:justify-between justify-center lg:gap-[3rem] md:gap-[2rem] lg:flex-row flex-col gap-[2rem] relative z-[0]">
                         <div class="flex flex-col gap-4 rounded-[20px] bg-[#FFF2F8] p-4 max-[425px]:text-center max-[425px]:items-center">
                                 <h1 class="lg:text-[36px] md:text-[26px] sm:text-[16px] text-[#224C75]">Regular Training</h1>
-                            <p class="text-[#475467] font-normal">Our regular programs is a 1 month intensive certified training program where, we teach computer fundamentals such as Microsoft word, Microsoft Powerpoint, Microsoft Excel, corel draw and so on, we provide tools that is required to equip them in order to start up a career of their choice in the world of global technology</p>
+                            <p class="text-[#475467] font-normal">Our regular program is a 1-month intensive certified training program where, we teach computer fundamentals such as Microsoft word, Microsoft Powerpoint, Microsoft Excel, corel draw and so on, we provide tools that is required to equip <span class="font-bold">you</span> in order to start up a career of your choice in the world of global technology</p>
                             <router-link to="/courses">
                                 <p class="p-3 w-fit rounded-[10px] border-[2px] text-[#224C75] border-[solid] border-[#224C75] hover:bg-[#224c75] hover:text-white hover:border-white transition-all duration-1000 ease-in-out mt-4">Learn more</p>
                             </router-link>
@@ -29,7 +29,7 @@
                         
                         <div class="flex flex-col gap-[1rem] rounded-[20px] bg-[#F4F6FD] p-4 items-start max-[425px]:text-center max-[425px]:items-center">
                                 <h1 class="text-[36px] text-[#224C75]">Fellowship</h1>
-                            <p class="text-[#475467] font-normal">Our Fellowship program is a 7 months intensive tech program through an agile delivery methodology, mentor matching, and leadership modules that equips young people with the skills and resources that is required to launch and grow successful careers in tech and to be able to work competitively in any global team.</p>
+                            <p class="text-[#475467] font-normal">Our Fellowship program is a 7-month intensive tech program through an agile delivery methodology, mentor matching, and leadership modules that equips young people with the skills and resources that is required to launch and grow successful careers in tech and to be able to work competitively in any global team.</p>
                             <router-link to="/fellow">
                                 <p class="p-3 w-fit rounded-[10px] border-[2px] text-[#224C75]  border-[solid] border-[#224C75] hover:bg-[#224c75] hover:text-white hover:border-white transition-all duration-1000 ease-in-out mt-4" href="">Learn more</p>
                             </router-link> 

@@ -138,7 +138,7 @@ export default defineComponent({
 
                 <div class="w-[90%] flex flex-col gap-4 md:text-left text-center" :class="showFaqsAnswerOne ? 'bg-blue-50 p-6' : 'bg-none'">
                     <p class="font-semibold text-[13px] sm:text-[18px]" :class="showFaqsAnswerOne ? 'text-left' : 'md:text-left text-center'">What Does Dervac Hub Do?</p>
-                    <p class="text-[9px] sm:text-[15px] font-medium" v-show="showFaqsAnswerOne">Dervac HUB is an initiative od Dervac Global Services Ltd non-profit partnership program that authorizes global universities and colleges to deliver industry-recognized Huawei Certification courses to students.</p>
+                    <p class="text-[9px] sm:text-[15px] font-medium" v-show="showFaqsAnswerOne">Dervac HUB is an initiative of Dervac Global Services Ltd that specialise in IT services and trainings</p>
                 </div>
             </div>
 
@@ -151,7 +151,7 @@ export default defineComponent({
                 </div>
                 <div class="w-[90%] flex flex-col gap-4 md:text-left text-center" :class="showFaqsAnswerTwo ? 'bg-blue-50 p-6' : 'bg-none'">
                     <p class="font-semibold text-[13px] sm:text-[18px]" :class="showFaqsAnswerTwo ? 'text-left' : 'md:text-left text-center'">How Can I Enroll Into Dervac Hub Fellowship Program</p>
-                    <p class="text-[9px] sm:text-[15px] font-medium" v-show="showFaqsAnswerTwo">To embark on the enlightening Dervac Hub Fellowship Program, visit their website and explore the dedicated enrollment section. Fill out the online application form with your personal details, academic background, and a compelling statement of purpose. Ensure you meet the eligibility criteria and submit your application before the specified deadline.</p>
+                    <p class="text-[9px] sm:text-[15px] font-medium" v-show="showFaqsAnswerTwo">To embark on the enlightening Dervac Hub Fellowship Program, explore the dedicated enrollment section. Fill out the online application form with your personal details, academic background, and a compelling statement of purpose. Ensure you meet the eligibility criteria and submit your application before the specified deadline.</p>
                 </div>
             </div>
 
@@ -201,7 +201,7 @@ export default defineComponent({
                 </div>
                 <div class="w-[90%] flex flex-col gap-4 md:text-left text-center" :class="showFaqsAnswerSix ? 'bg-blue-50 p-6' : 'bg-none'">
                     <p class="font-semibold text-[13px] sm:text-[18px]" :class="showFaqsAnswerSix ? 'text-left' : 'md:text-left text-center'">How Long Is The Fellowship Program?</p>
-                    <p class="text-[9px] sm:text-[15px] font-medium" v-show="showFaqsAnswerSix">The Fellowship Program spans a transformative journey of eight months. Brace yourself for an intensive and rewarding experience. Engage in immersive learning, mentorship, and personal growth activities. Embrace the opportunity to delve deep into your field and emerge as a well-rounded professional.</p>
+                    <p class="text-[9px] sm:text-[15px] font-medium" v-show="showFaqsAnswerSix">The Fellowship Program spans a transformative journey of seven months. Brace yourself for an intensive and rewarding experience. Engage in immersive learning, mentorship, and personal growth activities. Embrace the opportunity to delve deep into your field and emerge as a well-rounded professional.</p>
                 </div>
             </div>
         </div>

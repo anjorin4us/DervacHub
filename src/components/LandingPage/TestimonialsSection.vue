@@ -47,7 +47,7 @@ export default defineComponent({
             <p><small class="text-red-700">FrontEnd Dev.</small></p>
 
             <div class="flex flex-row gap-2 w-fit mx-auto mt-5">
-                <div class="h-[20px] w-[20px] rounded-[50%] border border-1 border-red-700" @click="slide = index" :class="slide === index ? 'bg-white' : 'bg-none' " v-for="(testimonial, index) in testimonials" :key="index"></div>
+                <div class="h-[10px] w-[10px] rounded-[50%] border border-1 border-red-700" @click="slide = index" :class="slide === index ? 'bg-white' : 'bg-none' " v-for="(testimonial, index) in testimonials" :key="index"></div>
             </div>
         </div>
 
