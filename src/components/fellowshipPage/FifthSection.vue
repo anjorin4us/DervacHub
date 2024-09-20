@@ -15,7 +15,7 @@ export default defineComponent({
                 <div class="space-y-6">
                     <div class="bullet flex gap-[1em]">
                         <img src="./images/Check-icon.svg" class="" alt="">
-                        <p class="font-bold text-gray-500">Must be between the ages of 17 and 45</p>
+                        <p class="font-bold text-gray-500">Must be between the ages of 17 and 35</p>
                     </div>
 
                     <div class="bullet flex gap-[1em]">

@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full bg-white h-fit flex flex-col gap-[4rem] sm:items-center items-start  sm:text-center md:text-start font-sans pt-12">
+    <div class="w-full bg-white h-fit flex flex-col gap-[2rem] sm:items-center items-start  sm:text-center md:text-start font-sans pt-12">
         <div class="flex flex-col items-start gap-[2rem] w-full max-[425px]:text-center max-[425px]:items-center p-[1rem]">
             <h1 class="lg:text-5xl md:text-4xl md:px-24 px-8 text-sm font-bold text-[#224C75] w-[70%]">Gain the skill you need to land a job in the tech industry</h1>
             <p class="text-[#475467] lg:pr-[35%] md:px-24 px-8 md:pr-[20%] sm:pr-[0%] lg:text-[18px] md:text-[14px] font-[500]">We train and mentor you to become an excellent engineer and master the technologies demanded by the employers</p>
@@ -14,7 +14,7 @@
             <div class="">
                 <div class="flex flex-col gap-[2rem] font-[600] w-full h-fit bg-white">
                     <div class="flex flex-col gap-[10px] p-[2rem] w-[70%] max-[425px]:text-center max-[425px]:items-center z-0">
-                        <h1 class="lg:text-[36px] md:text-[26px] text-[26px] text-[#224C75]">Program</h1>
+                        <h1 class="lg:text-[36px] md:text-[26px] text-[26px] text-[#224C75]">Training services</h1>
                         <p class="text-[#475467] font-normal">We offer regular training programs and fellowship programs. Join the fellowship program that helps you secure a future in tech. Our fellowship curriculum offers direct practical experience.</p>
                     </div>
                     <div class="flex lg:justify-between justify-center lg:gap-[3rem] md:gap-[2rem] lg:flex-row flex-col gap-[2rem] relative z-[0]">
