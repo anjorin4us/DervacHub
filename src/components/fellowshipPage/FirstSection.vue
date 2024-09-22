@@ -15,11 +15,14 @@ export default defineComponent({
         <div class="flex flex-col gap-8 w-[90%] md:mx-auto lg:mx-0">
             <p class="md:text-[42px] font-extrabold sm:text-[30px] text-[#224c75]">Our <span class="text-[#d82e21]">fellowship program</span> will help you secure a future in tech</p>
 
-            <p class="text-[#224c75] md:text-[16px] text-[15px]">Our Fellowship program is a 8 months intensive tech program through an agile delivery methodology, mentor matching, and leadership modules that equips young people with the skills and resources to launch and grow successful careers in tech and be able to work competitively in any global team.</p>
+            <p class="text-[#224c75] md:text-[16px] text-[15px]">Our Fellowship program is a 7-month intensive tech program through an agile delivery methodology, mentor matching, and leadership modules that equips young people with the skills and resources to launch and grow successful careers in tech and be able to work competitively in any global team.</p>
 
             <div class="md:block hidden">
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSdndewi_sgAyghPlSEMkDJhp3mI_IBstCy0HxQkxOGNixcHdQ/viewform" target="_blank">
-                <component is="Button" value="Join now" class="text-[15px] md:text-[18px] px-8 rounded-[10px] py-5 bg-[#102539] text-white">Join now</component></a>
+                
+                <component is="Button" value="Join now" class="text-[15px] md:text-[18px] px-8 rounded-[10px] py-5 bg-[#102539] text-white">Join now</component>
+                
+                </a>
             </div>
         </div>
 

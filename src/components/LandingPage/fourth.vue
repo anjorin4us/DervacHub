@@ -15,10 +15,9 @@
           <div class="px-[21px] py-2 border border-gray-300 rounded-[15px] hover:border-0 hover:shadow-xl">
             <img src="../../assets/others/digitalLiteracy.png" alt="" class="rounded-[10px] w-[100%]">
             <div class="flex justify-between items-center pt-[30px]">
-              <p class="text-red-600 bg-[#F0F9FF] py-[2px] px-[10px] rounded-[16px]">Module 1</p>
+              <h1 class="text-[#224C75] sm:w-52 text-[24px] font-[600] leading-6 my-2">Digital Literacy</h1>
               <p class="text-red-600 text-[14px] font-[600]">4 Weeks</p>
             </div>
-            <h1 class="text-[#224C75] text-[24px] font-[600] leading-6 my-2">Digital Literacy</h1>
             <p class="text-[#475467] text-[16px] font-[400]">Embark on a journey of digital literacy with our comprehensive course. Develop a solid understanding of essential computer fundamentals and data processing concepts. Learn to navigate the digital landscape confidently, from mastering basic computer operations to exploring data manipulation techniques.Gain practical skills in utilizing software</p>
             <div class="flex justify-between items-center text-[#344054] hover:text-white hover:bg-[#142c45] transition duration-1000 mt-[24px] w-[161px] border border-gray-300 rounded-[15px] py-[12px] px-[16px]">
               <p class=" text-[18px] font-[400]">Enroll</p>
@@ -31,10 +30,9 @@
           <div class="p-[21px] border border-gray-300 rounded-[15px] hover:border-0 hover:shadow-xl">
             <img src="../../assets/others/webDevFund.png" alt="" class="rounded-[10px] w-[100%]">
             <div class="flex justify-between items-center pt-[30px]">
-              <p class="text-red-600 bg-[#F0F9FF] py-[2px] px-[10px] rounded-[16px]">Module 2</p>
+              <h1 class="text-[#224C75] sm:w-52 text-[24px] font-[600] leading-6 my-2">Web Development (silver track)</h1>
               <p class="text-red-600 text-[14px] font-[600]">6 Weeks</p>
             </div>
-            <h1 class="text-[#224C75] text-[24px] font-[600] leading-6 my-2">Web Development fundamentals</h1>
             <p class="text-[#475467] text-[16px] font-[400]">Discover the fundamentals of web development in our introductory course. Learn HTML, CSS, and JavaScript essentials to build and style web pages. Acquire foundational skills for creating interactive and responsive websites. Perfect for beginners and those looking to grasp the basics of web development.</p>
             <div class="flex justify-between items-center text-[#344054] hover:text-white hover:bg-[#142c45] transition duration-1000 mt-[24px] w-[161px] border border-gray-300 rounded-[15px] py-[12px] px-[16px]">
               <p class=" text-[18px] font-[400]">Enroll</p>
@@ -48,10 +46,9 @@
           <div class="p-[21px] border border-gray-300 rounded-[15px] hover:border-0 hover:shadow-xl">
             <img src="../../assets/others/fullstack.png" alt="" class="rounded-[10px] w-[100%]">
             <div class="flex justify-between items-center pt-[30px]">
-              <p class="text-red-600 bg-[#F0F9FF] py-[2px] px-[10px] rounded-[16px]">Module 3</p>
+              <h1 class="text-[#224C75] sm:w-52 text-[24px] font-[600] leading-6 my-2">Full-Stack</h1>
               <p class="text-red-600 text-[14px] font-[600]">6 Months</p>
             </div>
-            <h1 class="text-[#224C75] text-[24px] font-[600] leading-6 my-2">Full-Stack</h1>
             <p class="text-[#475467] text-[16px] font-[400]">Discover the full range of web development in our Fullstack Web Development Mastery course. Seamlessly blend frontend and backend expertise to become a versatile developer creating holistic web solutions. Excel in FrontEnd tools for captivating interfaces, while exploring server-side technologies, APIs, databases, and security in depth.</p>
             <div class="flex justify-between items-center text-[#344054] hover:text-white hover:bg-[#142c45] transition duration-1000 mt-[24px] w-[161px] border border-gray-300 rounded-[15px] py-[12px] px-[16px]">
               <p class=" text-[18px] font-[400]">Enroll</p>

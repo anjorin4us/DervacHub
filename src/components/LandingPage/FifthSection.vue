@@ -114,7 +114,7 @@
                             <div class="flex items-center gap-4">
                                 <svg class="w-[20px] md:w-[32px]" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="lightgreen" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10s10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5l1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
 
-                                <a href="https://academy.hub.dervac.com" target="_blank"><p class="text-gray-500 text-[15px] md:text-md">Physical @ <span class="font-[Bimini]">dervacHUB</span></p></a> 
+                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdndewi_sgAyghPlSEMkDJhp3mI_IBstCy0HxQkxOGNixcHdQ/viewform" target="_blank"><p class="text-gray-500 text-[15px] md:text-md">Physical @ <span class="font-[Bimini]">dervacHUB</span></p></a> 
                             </div>
                             <div class="flex items-center gap-4">
                                 <svg class="w-[20px] md:w-[32px]" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="lightgreen" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10s10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5l1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>

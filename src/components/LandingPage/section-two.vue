@@ -13,13 +13,17 @@
             </div>
             <div class="">
                 <div class="flex flex-col gap-[2rem] font-[600] w-full h-fit bg-white">
-                    <div class="flex flex-col gap-[10px] p-[2rem] w-[70%] max-[425px]:text-center max-[425px]:items-center z-0">
-                        <h1 class="lg:text-[36px] md:text-[26px] text-[26px] text-[#224C75]">Training services</h1>
-                        <p class="text-[#475467] font-normal">We offer regular training programs and fellowship programs. Join the fellowship program that helps you secure a future in tech. Our fellowship curriculum offers direct practical experience.</p>
+                    <div class="flex">
+                        <div class="flex flex-col gap-[10px] p-[2rem] max-[425px]:text-center max-[425px]:items-center z-0">
+                            <h1 class="lg:text-[36px] md:text-[26px] text-[26px] text-[#224C75]">Training services</h1>
+                            <p class="text-[#475467] font-normal">We offer regular training programs and fellowship programs. Join the fellowship program that helps you secure a future in tech. Our fellowship curriculum offers direct practical experience.</p>
+                        </div>
+
+                        <img src="/pattern-1.png" class="lg:block hidden " alt="">
                     </div>
                     <div class="flex lg:justify-between justify-center lg:gap-[3rem] md:gap-[2rem] lg:flex-row flex-col gap-[2rem] relative z-[0]">
                         <div class="flex flex-col gap-4 rounded-[20px] bg-[#FFF2F8] p-4 max-[425px]:text-center max-[425px]:items-center">
-                                <h1 class="lg:text-[36px] md:text-[26px] sm:text-[16px] text-[#224C75]">Regular Training</h1>
+                                <h1 class="lg:text-[36px] md:text-[26px] sm:text-[16px] text-[#224C75]">Regular Trainings</h1>
                             <p class="text-[#475467] font-normal">Our regular program is a 1-month intensive certified training program where, we teach computer fundamentals such as Microsoft word, Microsoft Powerpoint, Microsoft Excel, corel draw and so on, we provide tools that is required to equip <span class="font-bold">you</span> in order to start up a career of your choice in the world of global technology</p>
                             <router-link to="/courses">
                                 <p class="p-3 w-fit rounded-[10px] border-[2px] text-[#224C75] border-[solid] border-[#224C75] hover:bg-[#224c75] hover:text-white hover:border-white transition-all duration-1000 ease-in-out mt-4">Learn more</p>

@@ -41,7 +41,7 @@ export default defineComponent({
 
         <div class="flex items-center flex-col justify-center mt-12">
             <p class="text-[36px] text-[#224C75] font-semibold mb-8 text-center">Candidates' Attendance</p>
-            <p class="text-[20px] text-[#475467] text-center max-w-[980px] text-center">Candidates are expected to be intentional about learning, be physically present at all classes, Monday to Thursday, from 9am – 2pm; take your lessons seriously and participate in all your assessments, assignments and projects which will enable them bridge their skill-gaps and stand a better chance accelerate your pace to secure a future in the tech space.</p>
+            <p class="text-[20px] text-[#475467] text-center max-w-[980px] text-center">Candidates are expected to be intentional about learning, be physically present at all classes, Mondays to Thursdays, from 9am – 2pm; take your lessons seriously and participate in all your assessments, assignments and projects which will enable them bridge their skill-gaps and stand a better chance accelerate your pace to secure a future in the tech space.</p>
         </div>
     </div>
     

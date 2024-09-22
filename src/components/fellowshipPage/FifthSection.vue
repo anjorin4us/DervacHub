@@ -50,7 +50,7 @@ export default defineComponent({
 
                 </div>
 
-                <Button value="Apply Now" class="md:block hidden p-3 transition-all duration-1000 ease-in-out hover:bg-[#224c75]  hover:border-white hover:text-white transition duration-500 ease-in-out border-red-300 border-[2px] text-red-400 rounded-[10px]"/>
+                <Button value="Apply Now" class="md:block hidden p-3 transition-all duration-1000 ease-in-out hover:bg-[#224c75]  hover:border-white hover:text-white border-red-300 border-[2px] text-red-400 rounded-[10px]"/>
 
             </div>
 
@@ -58,7 +58,7 @@ export default defineComponent({
                 <img src="./images/bowl-on-laptop.svg" alt="">
             </div>
 
-            <Button value="Apply Now" class="md:hidden border-red-300 border-[2px] text-red-400 rounded-[10px]"/>
+            <!-- <Button value="Apply Now" class="md:hidden border-red-300 border-[2px] text-red-400 rounded-[10px] "/> -->
 
         </div>
 </template>
