@@ -30,7 +30,7 @@ export default defineComponent({
                 <p class="text-[#224c75] md:text-[16px] text-[15px]">Our Courses offer a comprehensive learning experience designed to empower individuals with the knowledge and expertise needed to excel in the rapidly evolving field of technology. Spanning across various domains, our courses are carefully crafted to provide hands-on training, expert guidance, and practical skills that prepare students for a successful journey in the tech industry.</p>
 
                 <div class="lg:block hidden z-30">
-                    <a href="" target="_blank">
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSctTqRUCsfiDETeMGAp-I3oi6bgBoeBVn5ijgP953fQEmlzRA/viewform" target="_blank">
                         <component is="Button" value="Enrol now" class="text-[15px] md:text-[18px] px-8 rounded-[10px] py-5 bg-[#102539] text-white">Enrol now</component>
                     </a>
                 </div>
@@ -41,7 +41,7 @@ export default defineComponent({
                 <img src="./LandingPage/images/blue-curve.svg" alt="" class="absolute right-0 top-0 lg:block hidden">
             </div>
             <div class="lg:hidden mb-32 w-full">
-                <a href="" target="_blank">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSctTqRUCsfiDETeMGAp-I3oi6bgBoeBVn5ijgP953fQEmlzRA/viewform" target="_blank">
                     <component is="Button" value="Enrol now" class="text-[15px] w-full px-8 rounded-[10px] py-5 bg-[#224c75] text-white">Enrol now</component>
                 </a>
             </div>   
