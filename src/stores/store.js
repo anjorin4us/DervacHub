@@ -9,210 +9,210 @@ export default function elementStores() {
                     time: '4 Weeks',
                     field: 'Digital Literacy',
                     desc: "Embark on a journey of digital literacy with our comprehensive course. Develop a solid understanding of essential computer fundamentals and data processing concepts. Learn to navigate the digital landscape confidently, from mastering basic computer operations to exploring data manipulation techniques. Gain practical skills in utilizing software tools for efficient data processing, analysis, and presentation.",
-                    image: '/others/digitalLiteracy.png',
+                    image: '/courses/digitalLiteracy.png',
                 },
                 {
                     module: 'Module 2',
                     time: '4 Weeks',
                     field: 'Scratch Programming',
                     desc: 'Dive into the world of coding through our beginner-friendly Scratch course. Build your foundational skills in logic, problem-solving, and creativity while developing projects with fun, visual programming blocks. Perfect for young learners and beginners eager to understand the fundamentals of programming in an engaging and playful way!',
-                    image: '/others/scratch.webp',
+                    image: '/courses/scratch.webp',
                 },
                 {
                     module: 'Module 3',
                     time: '6 Weeks',
                     field: 'Web Development (Silver track)',
                     desc: 'Discover the fundamentals of web development in our introductory course. Learn HTML, CSS, and JavaScript essentials to build and style web pages. Acquire foundational skills for creating interactive and responsive websites. Perfect for beginners and those looking to grasp the basics of web development.',
-                    image: '/others/webDevFund.png',
+                    image: '/courses/webDevFund.png',
                 },
                 {
                     module: 'Module 4',
                     time: '4 weeks',
                     field: "Computer Hardware Engineering",
                     desc: "Learn the fundamentals of computer hardware engineering, focusing on the design, development, and maintenance of physical computer systems. Topics include processors, motherboards, memory, storage devices, power supplies, and peripheral devices. Build practical skills in assembling, troubleshooting, and upgrading computer hardware for optimal performance.",
-                    image: "/others/computerEngineering.webp"
+                    image: "/courses/computerEngineering.webp"
                 },
                 {
                     module: 'Module 5',
                     time: '4 Weeks(Weekend)',
                     field: 'Computer Networking Fundamentals',
                     desc: 'Dive into Computer Networking Fundamentals for beginners. Learn essential concepts of data transmission, network protocols, IP addressing, and network topologies. Acquire practical skills to set up, troubleshoot, and secure basic networks. Ideal for newcomers seeking a solid foundation in connecting and managing digital systems.',
-                    image: '/others/computerNetworkingFundamentals.png',
+                    image: '/courses/computerNetworkingFundamentals.png',
                 },
                 {
                     module: 'Module 6',
                     time: '3 Weeks',
                     field: 'Web Design with CMS',
                     desc: 'Learn Web Design with CMS: Create stunning websites using Content Management Systems. Master layout design, UI/UX principles, and CMS integration. Build dynamic, responsive sites without coding. Perfect for beginners and designers looking to enhance skills in designing and managing websites efficiently.',
-                    image: '/others/WebDesignWithCMS.png',
+                    image: '/courses/WebDesignWithCMS.png',
                 },
                 {
                     module: 'Module 7',
                     time: '3 days',
                     field: 'Website Management Training',
                     desc: 'Master the skills to manage and maintain websites efficiently. This course covers website hosting, domain management, content updates, security protocols, SEO optimization, and performance monitoring. Learn to handle technical aspects of a website and ensure a smooth user experience.',
-                    image: '/others/websiteManagementTraining.jpg'
+                    image: '/courses/websiteManagementTraining.jpg'
                 },
                 {
                     module: 'Module 8',
                     time: '2 Months',
                     field: 'UI / UX Designs',
                     desc: 'Master the art of UI/UX and software design in our comprehensive course. Learn design principles, wireframing, prototyping, and user-centered approaches. Gain hands-on experience creating visually stunning and user-friendly digital solutions. Perfect for aspiring designers and developers seeking to craft exceptional user experiences.',
-                    image: '/others/uiUxSoftwareDesigns.png',
+                    image: '/courses/uiUxSoftwareDesigns.png',
                 },
                 {
                     module: 'Module 9',
                     time: '12 Weeks',
                     field: 'Graphics Designs',
                     desc: 'Elevate your graphic design skills with our intermediate course. Delve into advanced techniques in typography, layout composition, image manipulation, and branding. Develop a diverse portfolio while honing your creative vision. Perfect for designers seeking to take their graphic design expertise to the next level.',
-                    image: '/others/graphicsDesign.png',
+                    image: '/courses/graphicsDesign.png',
                 },
                 {
                     module: 'Module 10',
                     time: '12 Weeks(Weekend)',
                     field: 'Data Analytics',
                     desc: 'Elevate your Excel skills in our intermediate-level course. Become a proficient Excel Power User through advanced functions, data manipulation, and visualization techniques. Uncover insights with data analysis tools, PivotTables, and charts. Ideal for individuals aiming to enhance their data handling...',
-                    image: '/others/excelPowerUser.png',
+                    image: '/courses/excelPowerUser.png',
                 },
                 {
                     module: 'Module 11',
                     time: '4 Weeks',
                     field: 'Excel Power User & Data Analysis',
                     desc: "Become an Excel power user by mastering advanced features such as pivot tables, macros, conditional formatting, and data visualization tools. Gain expertise in handling large datasets, performing complex calculations, and extracting insights through data analysis techniques that improve decision-making processes",
-                    image: "/others/ExcelPowerUser-DataAnalysis.jpg"
+                    image: "/courses/ExcelPowerUser-DataAnalysis.jpg"
                 },
                 {
                     module: 'Module 12',
                     time: '4 Weeks(Weekend)',
                     field: 'SPSS DATA ANALYSIS',
                     desc: 'Unlock the power of data analysis with our SPSS course. Learn to navigate, manipulate, and derive insights from data using IBM SPSS Statistics. Explore statistical techniques, hypothesis testing, and data visualization. Gain practical skills in data interpretation and decision-making. Ideal for beginners and professionals seeking to harness data for informed choices.',
-                    image: '/others/spss.png',
+                    image: '/courses/spss.png',
                 },
                 {
                     module: 'Module 13',
                     time: '4 Weeks(Weekend)',
                     field: 'Digital Marketing & Social Media Enginering',
                     desc: 'Elevate your digital marketing prowess with our intermediate course. Dive into advanced strategies, analytics, and social media optimization. Harness the power of data-driven decisions and master effective online campaigns. Perfect for marketers aiming to deepen their skills in the dynamic landscape of digital marketing and social media engineering.',
-                    image: '/others/digitalMarketing.png',
+                    image: '/courses/digitalMarketing.png',
                 },
                 {
                     module: 'Module 14',
                     time: '4 Weeks(Weekend)',
                     field: 'Accounting and ERP Software',
                     desc: 'Delve into Accounting and ERP Software with our focused course. Acquire a comprehensive understanding of financial management, ledger systems, and enterprise resource planning. Develop practical skills in utilizing industry-leading software for efficient business operations. Ideal for those pursuing a career in finance and business management.',
-                    image: '/others/AccountingAndERPSoftware.png',
+                    image: '/courses/AccountingAndERPSoftware.png',
                 },
                 {
                     module: 'Module 15',
                     time: '2 days',
                     field: 'Cyber Security Non-Technical',
                     desc: 'Dive into Advanced Cyber Security & Ethical Hacking with our intensive course. Explore cutting-edge techniques, threat analysis, and penetration testing. Develop expertise in securing networks, systems, and applications. Ideal for cybersecurity professionals aiming to elevate their skills in safeguarding digital environments and conducting ethical hacking assessments.',
-                    image: '/others/cyberSecurity&EthicalHacking.png',
+                    image: '/courses/cyberSecurity&EthicalHacking.png',
                 },
                 {
                     module: "Module 16",
                     time: "7 Weeks",
                     field: "Cybersecurity and Data Protection",
                     desc: "Acquire in-depth knowledge of cybersecurity practices, including encryption, firewalls, and access controls. Learn to protect networks, data, and systems from cyber threats by implementing secure protocols and understanding legal aspects of data protection. Perfect for anyone looking to secure digital environments",
-                    image: "/others/Cybersecurity-DataProtection.jpg"
+                    image: "/courses/Cybersecurity-DataProtection.jpg"
                 },
                 {
                     module: "Module 17",
                     time: "5 Weeks (Weekend)",
                     field: "Artificial Intelligence",
                     desc: "Explore the essentials of artificial intelligence, including machine learning, neural networks, natural language processing, and computer vision. Understand AI’s real-world applications in industries like healthcare, finance, and automation, and develop the skills to work with AI-powered systems",
-                    image: "/others/artificialIntelligence.jpeg"
+                    image: "/courses/artificialIntelligence.jpeg"
                 },
                 {
                     module: "Module 18",
                     time: "4 Weeks",
                     field: "Robotics Fundamentals",
                     desc: "Dive into the fascinating world of robotics, where you’ll learn about robotic design, control systems, sensors, and actuators. Gain practical experience in building and programming robots to perform tasks, with a focus on automation and engineering principles",
-                    image: "/others/roboticsFundamentals.png"
+                    image: "/courses/roboticsFundamentals.jpg"
                 },
                 {
                     module: "Module 19",
                     time: "4 Weeks(Weekend)",
                     field: "Video Editing",
-                    desc: "ghhhhhhhhhhhhhhhhhh",
-                    image: "/others/"
+                    desc: "Unlock the skills to create professional-quality videos through the use of advanced video editing software. Learn to edit footage, apply transitions, work with audio tracks, color grading, and special effects to produce engaging multimedia content for diverse audiences",
+                    image: "/courses/videoEditing.png"
                 },
                 {
                     module: 'Module 20',
                     time: '4 Weeks(Weekend)',
                     field: 'Windows Server Administration & Management',
                     desc: 'Elevate Windows Server skills through our intermediate course. Master advanced administration, user management, group policies, security, and performance optimization. Ideal for IT professionals aiming to enhance Windows Server expertise and streamline organizational infrastructure for seamless network operations.',
-                    image: '/others/windowsServerAdministration&Management.png',
+                    image: '/courses/windowsServerAdministration&Management.png',
                 },
                 {
                     module: 'Module 21',
                     time: '13 Weeks',
                     field: 'Front-End Development',
                     desc: 'Explore the core aspects of front-End web development in this hands-on course. Learn web design tools to create engaging and responsive user interfaces. Develop the skills to build and style web content, add interactivity, and ensure optimal user experiences across devices. Perfect for beginners and those looking to strengthen their front-End skills.',
-                    image: '/others/frontEnd.png',
+                    image: '/courses/frontEnd.png',
                 },
                 {
                     module: 'Module 22',
                     time: '16 Weeks',
                     field: 'Back-End Development',
                     desc: "Dive into the world of backend web development with our comprehensive course. Discover the backend's crucial role in powering web applications, databases, and server-side logic.Gain hands-on experience in building robust and scalable backend systems, making you proficient in delivering efficient and secure web solutions.",
-                    image: '/others/backEnd.png' ,
+                    image: '/courses/backEnd.png' ,
                 },
                 {
                     module: 'Module 23',
                     time: '6 Months',
                     field: 'Full-stack Development',
                     desc: 'Discover the full range of web development in our Fullstack Web Development Mastery course. Seamlessly blend front-End and backend expertise to become a versatile developer creating holistic web solutions. Excel in Front-End tools for captivating interfaces, while exploring server-side technologies, APIs, databases, and security in depth.',
-                    image: '/others/fullstack.png',
+                    image: '/courses/fullstack.png',
                 },
                 {
                     module: 'Module 24',
                     time: '8 Weeks',
                     field: 'Python Programming',
                     desc: 'Master Python Programming from basics to advanced levels in our comprehensive course. Learn syntax, data structures, algorithms, and object-oriented concepts. Explore web development, data analysis, and more. Build real-world projects and enhance your coding skills. Perfect for beginners and those looking to elevate their Python proficiency.',
-                    image: '/others/pythonProgramming.png',
+                    image: '/courses/pythonProgramming.png',
                 },
                 {
                     module: 'Module 25',
                     time: '12 Weeks',
                     field: 'Mobile App Development',
                     desc: 'Dive into Mobile App Development with our course. Learn to create responsive, feature-rich apps for iOS and Android. Master essential languages, frameworks, and design principles. Gain hands-on experience building functional and engaging mobile applications. Perfect for aspiring developers and those eager to innovate in the mobile app landscape.',
-                    image: '/others/mobileAppDev.png',
+                    image: '/courses/mobileAppDev.png',
                 },
                 {
                     module: 'Module 26',
                     time: '8 Weeks',
                     field: 'Java Programming',
                     desc: "Master Java programming essentials in our concise course. Learn syntax, data types, control structures, and object-oriented principles. Develop practical skills in creating applications and understanding Java's versatility. Perfect for beginners and those aiming to strengthen their Java proficiency for software development.",
-                    image: '/others/javaProgramming.png',
+                    image: '/courses/javaProgramming.png',
                 },
                 {
                     module: 'Module 27',
                     time: '4 Weeks',
                     field: 'Linux Administration',
                     desc: 'Enhance your Linux admin skills with our intermediate course. Delve deeper into system management, networking, security, and scripting. Learn to configure, troubleshoot, and optimize Linux environments effectively. Ideal for those with basic Linux familiarity, aspiring to excel in diverse IT administration roles and responsibilities. Develop expertise for successful careers.',
-                    image: '/others/linuxAdministration.png',
+                    image: '/courses/linuxAdministration.png',
                 },
                 {
                     module: "Module 28",
                     time: "6 Weeks",
                     field: "Red Hat System Administration",
-                    desc: "lllllllllllllllllllllll",
-                    image: "/others/"
+                    desc: "Master the core skills needed to become a Red Hat system administrator. Learn to manage Linux servers, perform system configurations, set up users, maintain security policies, and manage file systems. This is an essential course for anyone aiming for Red Hat certifications",
+                    image: "/courses/redHatSystemAdmin.png"
                 },
                 {
                     module: 'Module 29',
                     time: '8 Weeks(Weekend)',
                     field: 'Virtualization Technology',
                     desc: 'Dive deep into Advanced Virtualization Technology with our course. Explore cutting-edge techniques in virtualization, containerization, and cloud computing. Develop expertise in optimizing resource utilization, scalability, and infrastructure management. Ideal for tech professionals looking to elevate their virtualization skills and drive efficient IT solutions.',
-                    image: '/others/virtualizationTechnology.png',
+                    image: '/courses/virtualizationTechnology.png',
                 },
                 {
                     module: "Module 30",
                     time: "7 Weeks",
                     field: "DevOps Engineering",
-                    desc: "mmmmmmmmmmmmmmmmm",
-                    image: "/others/"
+                    desc: "Learn the principles of DevOps engineering, focusing on automating software development, integration, and deployment processes. Explore continuous integration/continuous deployment (CI/CD) pipelines, infrastructure as code (IaC), and containerization technologies such as Docker and Kubernetes for faster and efficient workflows",
+                    image: "/courses/devOpsEngineering.png"
                 },
             ],
             testifier: 0,
@@ -221,25 +221,25 @@ export default function elementStores() {
                     name: 'Zakariyyah Okeyale ',
                     occupation: 'Front-End Dev.',
                     speech: 'I had an incredible experience at Dervac Hub!  The comprehensive curriculum, hands-on projects and knowledgeable instructors made learning complex concepts a breeze. The practical approach to teaching ensured that I not only understood the theory but could also apply it in real-world scenarios. Am excited about the opportunities ahead. I highly recommend Dervac Hub to anyone looking to kickstart or enhance their career in technology.',
-                    image: '/alfa-Zakariyyah.jpg'
+                    image: '/fellows/alfa-Zakariyyah.jpg'
                 },
                 {
                     name: 'Hammed Sanni',
                     occupation: 'Front-End Dev.',
                     speech: 'At Dervac, we believe that everyone deserves the opportunity to pursue their dreams without the burden of the debt. Created a program that puts you in control of your education and career sapiente, quia ab commodi veniam. Reiciendis neque dignissimos voluptatem modi est at! Architecto deleniti sa',
-                    image: '/testimonial-2.jpg'
+                    image: '/fellows/abdhameed.jpg'
                 },
                 {
                     name: 'Balkis Taiwo ',
                     occupation: 'Front-End Dev.',
                     speech: 'Reflecting on my time at Dervac Hub, I am grateful for the experience I gained as an IT personnel and web developer intern. The combination of troubleshooting IT issues and crafting innovative web solutions has equipped me with a versatile skill set that I am eager to leverage in my future career endeavors.',
-                    image: '/Balkis.jpg'
+                    image: '/fellows/Balkis.jpg'
                 },
                 {
                     name: 'Yusuf Olatunji',
                     occupation: 'Front-End Dev.',
                     speech: "I would like to use this medium to thank DERVAC for their wonderful contribution. I just wanted to share a quick note and let you know that  DERVAC is the best place to learn.   I'm so glad that I am part of the team. I always thought that Web Dev is hard to learn but you prove me wrong. Thanks, Jaza kumu lahu khairan.",
-                    image: '/agba.jpg'
+                    image: '/fellows/agba.jpg'
                 },
                 {
                     name: 'Ibrahim Akande',
@@ -251,7 +251,7 @@ export default function elementStores() {
                     name: "Sulaiman Dosu",
                     occupation: "Front-End Dev.",
                     speech: "I've had an incredible experience in the frontend program at DERVAC GLOBAL SERVICES LIMITED! The curriculum was comprehensive and challenging, but the support from the instructors and peers was top-notch. I loved how hands-on the projects were, and how quickly I was able to apply what I learned to real-world scenarios. The program not only taught me valuable skills, but also gave me the confidence to pursue a career in tech. I'm so grateful for the opportunity and would highly recommend it to anyone looking to start or advance their journey in frontend development. Thank you for an amazing experience!",
-                    image: "/dosu.jpg",
+                    image: "/fellows/dosu.jpg",
                 },
                 {
                     name: "Adebayo Nofisat",
@@ -263,7 +263,7 @@ export default function elementStores() {
                     name: "Stanley Meruo",
                     occupation: "Front-End Dev.",
                     speech: "I would like to express my gratitude for this career journey I took. It has been an enriching experience, and I have gained a substantial amount of knowledge and skills in frontend development at DERVAC GLOBAL SERVICES, significantly improved my skills and confidence in frontend development, and I feel well-prepared to tackle future projects.",
-                    image: "/stanley.jpg"
+                    image: "/fellows/stanley.jpg"
                 },
                 {
                     name: "AbdWaris Jimoh",
