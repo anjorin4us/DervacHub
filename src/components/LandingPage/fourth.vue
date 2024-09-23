@@ -3,7 +3,7 @@
     <div class="flex md:flex-row flex-col justify-between items-center">
       <p class="text-center sm:text-start text-[24px] lg:text-[30px] font-[600] text-[#224C75] h-fit leading-6">Dervac HUB Training Products</p>
       <router-link to="/courses">
-        <button class="my-4 py-[12px] md:text-[16px] text-white md:my-0 px-[20px] bg-[#224C75] rounded-[15px] hover:bg-white hover:text-[#224C75] transition-all duration-1000 ease-in-out" >View all courses</button>
+        <button class="my-4 py-[12px] md:text-[16px] text-white md:my-0 px-[20px] bg-[#224C75] rounded-[15px] hover:bg-white hover:border hover:border-blue-700 hover:border-1 hover:text-[#224C75] transition-all duration-1000 ease-in-out" >View all courses</button>
     </router-link>
 
     </div>
@@ -13,7 +13,7 @@
       <div class="my-[20px] grid md:grid-cols-2 lg:grid-cols-3 gap-[30px] md:my-2">
         <a href="http://enroll.dervac.com" target="_blank">
           <div class="px-[21px] py-2 border border-gray-300 rounded-[15px] hover:border-0 hover:shadow-xl">
-            <img src="../../assets/others/digitalLiteracy.png" alt="" class="rounded-[10px] w-[100%]">
+            <img src="/others/digitalLiteracy.png" alt="" class="rounded-[10px] w-[100%]">
             <div class="flex justify-between items-center pt-[30px]">
               <h1 class="text-[#224C75] sm:w-52 text-[24px] font-[600] leading-6 my-2">Digital Literacy</h1>
               <p class="text-red-600 text-[14px] font-[600]">4 Weeks</p>
@@ -28,7 +28,7 @@
 
         <a href="http://enroll.dervac.com" target="_blank">
           <div class="p-[21px] border border-gray-300 rounded-[15px] hover:border-0 hover:shadow-xl">
-            <img src="../../assets/others/webDevFund.png" alt="" class="rounded-[10px] w-[100%]">
+            <img src="/others/webDevFund.png" alt="" class="rounded-[10px] w-[100%]">
             <div class="flex justify-between items-center pt-[30px]">
               <h1 class="text-[#224C75] sm:w-52 text-[24px] font-[600] leading-6 my-2">Web Development (silver track)</h1>
               <p class="text-red-600 text-[14px] font-[600]">6 Weeks</p>
@@ -44,7 +44,7 @@
 
         <a href="http://enroll.dervac.com" target="_blank">
           <div class="p-[21px] border border-gray-300 rounded-[15px] hover:border-0 hover:shadow-xl">
-            <img src="../../assets/others/fullstack.png" alt="" class="rounded-[10px] w-[100%]">
+            <img src="/others/fullstack.png" alt="" class="rounded-[10px] w-[100%]">
             <div class="flex justify-between items-center pt-[30px]">
               <h1 class="text-[#224C75] sm:w-52 text-[24px] font-[600] leading-6 my-2">Full-Stack</h1>
               <p class="text-red-600 text-[14px] font-[600]">6 Months</p>

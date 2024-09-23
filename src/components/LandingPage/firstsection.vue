@@ -31,10 +31,11 @@ export default defineComponent({
 
                     <!-- The slant avatar images -->
                     <div class="sm:flex flex-row hidden bg-white w-fit py-3 pl-3 pr-6 rounded-[10px] lg:mx-0 mx-auto lg:absolute rotate-in-my-way top-[70px] lg:shadow-2xl right-[-80px] 2xl:right-28 z-10">
-                        <img src="../../assets/others/abdrrasheed.jpg" alt="" class="flex-none w-[50px] h-[50px] block rounded-[50%]">
-                        <img src="../../assets/others/agba.jpg" alt="" class="flex-none w-[50px] h-[50px] block rounded-[50%]">
-                        <img src="../../assets/others/Balkis.jpg" alt="" class="flex-none w-[50px] h-[50px] block rounded-[50%]">
-                        <img src="../../assets/others/Oogee.jpg" alt="" class="flex-none w-[50px] h-[50px] block rounded-[50%]">
+                        <img src="/others/abdrrasheed.jpg" alt="" class="flex-none w-[50px] h-[50px] block rounded-[50%]">
+                        <img src="/others/agba.jpg" alt="" class="flex-none w-[50px] h-[50px] block rounded-[50%]">
+                        <img src="/others/Balkis.jpg" alt="" class="flex-none w-[50px] h-[50px] block rounded-[50%]">
+                        <img src="/others/Oogee.jpg" alt="" class="flex-none w-[50px] h-[50px] block rounded-[50%]">
+                        <img src="/others/Oogee.jpg" alt="" class="flex-none w-[50px] h-[50px] block rounded-[50%]">
                         <div class="flex-none">
                             <router-link to="/fellows">
                                 <img src="./images/Avatar-add-button.svg" alt="" >
