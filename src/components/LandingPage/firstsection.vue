@@ -31,11 +31,11 @@ export default defineComponent({
 
                     <!-- The slant avatar images -->
                     <div class="sm:flex flex-row hidden bg-white w-fit py-3 pl-3 pr-6 rounded-[10px] lg:mx-0 mx-auto lg:absolute rotate-in-my-way top-[70px] lg:shadow-2xl right-[-80px] 2xl:right-28 z-10">
-                        <img src="/others/abdrrasheed.jpg" alt="" class="flex-none w-[50px] h-[50px] block rounded-[50%]">
-                        <img src="/others/agba.jpg" alt="" class="flex-none w-[50px] h-[50px] block rounded-[50%]">
-                        <img src="/others/Balkis.jpg" alt="" class="flex-none w-[50px] h-[50px] block rounded-[50%]">
-                        <img src="/others/Oogee.jpg" alt="" class="flex-none w-[50px] h-[50px] block rounded-[50%]">
-                        <img src="/others/Oogee.jpg" alt="" class="flex-none w-[50px] h-[50px] block rounded-[50%]">
+                        <img src="/fellows/abdrrasheed.jpg" alt="" class="flex-none w-[50px] h-[50px] block rounded-[50%]">
+                        <img src="/fellows/agba.jpg" alt="" class="flex-none w-[50px] h-[50px] block rounded-[50%]">
+                        <img src="/fellows/Balkis.jpg" alt="" class="flex-none w-[50px] h-[50px] block rounded-[50%]">
+                        <img src="/fellows/adam.jpg" alt="" class="flex-none w-[50px] h-[50px] block rounded-[50%]">
+                        <img src="/fellows/adam.jpg" alt="" class="flex-none w-[50px] h-[50px] block rounded-[50%]">
                         <div class="flex-none">
                             <router-link to="/fellows">
                                 <img src="./images/Avatar-add-button.svg" alt="" >
@@ -68,9 +68,9 @@ export default defineComponent({
         <!-- The second div containing the two images  -->
         <div class="flex gap-4 sm:flex-row flex-col-reverse">
             <!-- Mr Anjorin's image side  -->
-             <div class="bg-white flex flex-col gap-2 rounded-[10px] shadow-2xl z-30">
-                <div>
-                    <img src="./images/mrAnjorin-image.svg" alt="" class="w-[100%] rounded-t-[10px]">
+            <div class="bg-white sm:w-[50%] flex flex-col gap-2 rounded-[10px] shadow-2xl z-30">
+                <div class="lg:w-[270px] w-[100%] h-[70%]">
+                    <img src="./images/mrAnjorin-image.svg" alt="Mr. Anjorin" class="w-[100%] h-[100%] rounded-t-[10px]">
                 </div>
 
                 <div class="px-4 pt-4 pb-9 text-[#224c75]">
@@ -80,10 +80,10 @@ export default defineComponent({
                 </div>
             </div>
             
-            <!-- Smiling lady image side -->
-            <div class="bg-white flex flex-col gap-2 rounded-[10px] shadow-2xl z-30">
-                <div>
-                    <img src="./images/smiling-girl-in-hero-section.svg" alt="" class="w-[100%] rounded-t-[10px]">
+            <!-- Second image side -->
+            <div class="bg-white sm:w-[50%] flex flex-col gap-2 rounded-[10px] shadow-2xl z-30">
+                <div class="lg:w-[270px] w-[100%] h-[70%]">
+                    <img src="/others/firstSection.jpg" alt="class image" class="w-[100%] h-[100%] rounded-t-[10px]">
                 </div>
 
                 <div class="px-4 pt-4 pb-9 text-[#224c75]">
@@ -97,10 +97,6 @@ export default defineComponent({
 
             <!-- The blue curve beside the two images -->
             <img src="./images/blue-curve.svg" alt="" class=" absolute lg:h-[520px] lg:w-[520px] right-[50px] top-8">
-            <!-- -->
-            <!-- <div class=" border-2 border-s-blue-950 border-t-blue-950 border-e-[#f1eef3] border-b-[#f1eef3] rounded-s-full rounded-t-full rounded-b-full  absolute ">
-
-            </div> -->
         </div>        
     </div>
 

@@ -34,13 +34,13 @@ export default defineComponent({
 
 <template>
     <div class="bg-gradient-to-b from-[#11263B] to-[#132b42] text-center text-white py-5 px-12 relative">
-        <h1 class="text-5xl font-bold">Testimonials</h1>
+        <h1 class="lg:text-5xl md:text-3xl sm:text-2xl text-lg font-bold">Testimonials</h1>
         <div v-for="(testimonial, index) in testimonials" :key="index" :class="slide === index ? 'block' : 'hidden' ">
             <img :src="testimonial.image" alt="" class="block mx-auto h-32 w-32 rounded-[50%] mt-4">
         
             <p class="mt-4 w-[90%] mx-auto">{{testimonial.speech}}</p>
 
-            <hr class="w-[500px] mx-auto mt-4">
+            <hr class="sm:w-[500px] w-[100%] mx-auto mt-4">
 
             <h5 class="mt-3">Fellow {{testimonial.name}}</h5>
 
