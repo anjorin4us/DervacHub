@@ -387,15 +387,6 @@ export default function elementStores() {
                     twitter: '/fellows/fawwaz.jpg', 
                     imageUrl: '/teams/fawwaz.png', 
                 },
-                { 
-                    id: 11,
-                    name: 'Yunus Qudus',
-                    based: "Software Engineer", 
-                    linkedIn: 'https://www.linkedin.com/in/abdulqudus-yunus-2a1153151/', 
-                    website: '#', 
-                    twitter: '#', 
-                    imageUrl: '/teams/yunusSanni.jpg', 
-                },
             ],
             fellows: [
                     { 
@@ -572,44 +563,32 @@ export default function elementStores() {
                 {
                     name: 'Okeyale Zakariyyah',
                     occupation: 'Front-End Dev.',
-                    testimony: 'I had an incredible experience at Dervac Hub!  The comprehensive curriculum, hands-on projects and knowledgeable instructors made learning complex concepts a breeze. The practical approach to teaching ensured that I not only understood the theory but could also apply it in real-world scenarios. Am excited about the opportunities ahead. I highly recommend Dervac Hub to anyone looking to kickstart or enhance their career in technology.',
-                    image: '/fellows/alfa-zakariyyah.jpg'
+                    testimony: 'I had an incredible experience at Dervac Hub! Hands-on projects and knowledgeable instructors made learning complex concepts a breeze. The practical approach to teaching ensured that I not only understood the theory but could also apply it in real-world scenarios. I highly recommend Dervac Hub to anyone looking to kickstart or enhance their career in technology.',
+                    image: '/fellows/alfa-Zakariyyah.jpg'
                 },
                 {
                     name: 'Sanni AbdHameed',
                     occupation: 'Front-End Dev.',
-                    testimony: "DervacHub has been a beacon of guidance in my journey toward becoming a proficient developer. The curriculum, thoughtfully curated with industry demands in mind, allowed me to grasp intricate concepts effortlessly. What truly stood out was their emphasis on practical application – from coding challenges to collaborative projects – fostering skills that translate directly into the real world. DervacHub's dedication to my growth and success has not only shaped my technical abilities but also instilled in me a profound confidence to innovate and create. I am immensely grateful for the enriching experience and wholeheartedly recommend DervacHub to aspiring developers.",
+                    testimony: "DervacHub has been a beacon of guidance in my journey toward becoming a proficient developer. The curriculum, thoughtfully curated with industry demands in mind, allowed me to grasp intricate concepts effortlessly. What truly stood out was their emphasis on practical application – from coding challenges to collaborative projects – fostering skills that translate directly into the real world.",
                     image: '/fellows/abdhameed.jpg'
                 },
                 {
                     name: 'AbdurRasheed',
                     occupation: 'Front-End Dev.',
-                    testimony: 'Dervac Global Services;it was a great experience having my SIWES with you, you are the real definition of industrial training as I had the opportunity to get practical experience of what Computet Science entails, I got my bearing as student of computer science at Dervac and also was able to know my potentials as Dervac gave me the opportunity to explore alot of fields in IT.One of the greatest potential of Dervac is  "follow-up",she made herself always available to support my growth.Thanks so much Dervac',
+                    testimony: 'Dervac Global Services;it was a great experience having my SIWES with you, you are the real definition of industrial training as I had the opportunity to get practical experience of what Computet Science entails, I got my bearing as student of computer science at Dervac and also was able to know my potentials as Dervac gave me the opportunity to explore alot of fields in IT.',
                     image: '/fellows/abdrrasheed.jpg'
                 },
                 {
                     name: 'Taiwo Balkis',
                     occupation: 'Front-End Dev.',
-                    testimony: 'During my stay at Dervac Hub as a software developer and an IT personnel, I had the privilege of being part of an innovative and forward-thinking team. The office buzzed with creativity and collaboration, making each day an exciting journey. I learned to seamlessly integrate aesthetics with functionality, resulting in user-friendly. Regular stand-up meetings ensured that everyone was aligned, and I appreciated the camaraderie and support within the team. Code reviews were a valuable opportunity for learning and growth, and I eagerly learned from my peers.  ',
+                    testimony: 'I had the privilege of being part of an innovative and forward-thinking team. The office buzzed with creativity and collaboration, making each day an exciting journey. I learned to seamlessly integrate aesthetics with functionality, resulting in user-friendly. Code reviews were a valuable opportunity for learning and growth, and I eagerly learned from my peers.  ',
                     image: '/fellows/Balkis.jpg',
                 },
                 {
                     name: 'Aadam',
                     occupation: 'Front-End Dev.',
-                    testimony: "Dear DERVAC, I'd like to express my gratitude for your supervision and guidance during my internship. My experience was very valuable, and I've gained so much insight into the world of ICT. I enjoyed working and collaborating with you, my fellow interns back then and now. I was delighted to be part of such an amazing and organized INFORMATION TECHNOLOGY organization.Thanks again for this incredible internship, and I wish you and the [DERVAC TEAM] all the best.",
-                    image: '/fellows/Oogee.jpg',
-                },
-                {
-                    name: 'AbdSalaam',
-                    occupation: 'Front-End Dev.',
-                    testimony: 'My internship at Dervac hub was truly an invaluable and transformative experience. Throughout my time there, I had the privilege of gaining valuable insights and skills in various areas, including team management, which taught me how to effectively collaborate and lead in a professional setting. Additionally, the exposure to different challenging projects allowed me to refine my problem-solving abilities and think creatively to overcome obstacles. One of the standout aspects of my internship was the emphasis on computer literacy.',
-                    image: '/fellows/abdSalam.jpg',
-                },
-                {
-                    name: 'Okeyale Zakariyyah',
-                    occupation: 'Front-End Dev.',
-                    testimony: 'I had an incredible experience at Dervac Hub!  The comprehensive curriculum, hands-on projects and knowledgeable instructors made learning complex concepts a breeze. The practical approach to teaching ensured that I not only understood the theory but could also apply it in real-world scenarios. The engaging learning environment created a positive atmosphere that fostered growth and confidence. Thanks to this training. Am excited about the opportunities ahead. I highly recommend Dervac Hub to anyone looking to kickstart or enhance their career in technology',
-                    image: '/fellows/alfa-Zakariyyah',
+                    testimony: "I'd like to express my gratitude for your supervision and guidance during my internship. My experience was very valuable, and I've gained so much insight into the world of ICT. I am delighted to be part of such an amazing and organized INFORMATION TECHNOLOGY organization. Thanks again for this incredible internship",
+                    image: '/fellows/adam.jpg',
                 },
                 {
                     name: 'Yusuf Olatunji',
@@ -618,33 +597,33 @@ export default function elementStores() {
                     image: '/fellows/agba.jpg',
                 },
                 {
-                    name: "AbdGaniy AbdA'zeez",
+                    name: "AbdGaniy Abd A'zeez",
                     occupation: 'Front-End Dev.',
-                    testimony: "I am taking this opportunity to express my heartfelt gratitude to DervacHub. They have taken me from being a computer fundamentalist to a skilled front-End developer in just six months. While it demanded dedicated hard work and relentless effort, the results have been truly rewarding. The transformation and growth I've experienced are a testament to the value and commitment that DervacHub brings to its programs." ,
+                    testimony: "Dervac took me from being a computer fundamentalist to a skilled front-End developer in just six months. While it demanded dedicated hard work and relentless effort, the results have been truly rewarding. The transformation and growth I've experienced are a testament to the value and commitment that DervacHub brings to its programs." ,
                     image: '/fellows/abdulaziz.jpg',
                 },
                 {
                     name: 'Luqman AbdurRahman',
                     occupation: 'Front-End Dev.',
-                    testimony: "Joining DervacHub was a pivotal moment in my career journey. The guidance and mentorship I received there were instrumental in shaping me into a competent and confident developer. The hands-on approach to learning, coupled with real-world projects, enabled me to apply theoretical concepts to practical situations.Thanks to DervacHub, I now possess the skills and knowledge needed to thrive in the ever-evolving tech industry.",
+                    testimony: "Joining DervacHub was a pivotal moment in my career journey. The guidance and mentorship I received there were instrumental in shaping me into a competent and confident developer. The hands-on approach to learning, coupled with real-world projects, enabled me to apply theoretical concepts to practical situations.",
                     image: '/fellows/luqman.png'
                 },
                 {
                     name: 'Makinde Fawwaz',
                     occupation: 'Front-End Dev.',
-                    testimony: 'My experience with DervacHub has been nothing short of phenomenal. Enrolling in their program was a game-changer for me. The curriculum is expertly designed, covering a wide spectrum of topics crucial for a well-rounded developer. From coding fundamentals to advanced techniques, I was amazed at how seamlessly they guided me through the learning journey.        one of the qualities that truly sets DervacHub apart is their incredible support system. The our tutor is not only knowledgeable but also incredibly approachable. Whenever I hit a roadblock or needed clarification, he is right there to guide me, making the learning process smoother and more enjoyable.',
-                    image: '/fellows/fawwaz.jpg',
+                    testimony: 'Enrolling in Dervac program was a game-changer for me. The curriculum is expertly designed, covering a wide spectrum of topics crucial for a well-rounded developer. I was amazed at how seamlessly they guided me through the learning journey. One of the qualities that truly sets her apart is their incredible hands on project system.',
+                    image: '/fellows/fawwaz.png',
                 },
                 {
                     name: 'Esther',
                     occupation: 'Front-End Dev.',
-                    testimony: " DervacHub doesn't just teach you to code; they empower you to think critically and solve complex challenges. I am immensely grateful for the transformative experience and highly recommend DervacHub to anyone aspiring to excel in the world of technology. They exceeded all my expectations in my pursuit of becoming a proficient developer. The structured curriculum, coupled with their emphasis on hands-on learning, accelerated my growth exponentially. ",
+                    testimony: " DervacHub doesn't just teach you to code; they empower you to think critically and solve complex challenges. I am immensely grateful for the transformative experience and highly recommend DervacHub to anyone aspiring to excel in the world of technology. The structured curriculum, hands-on learning system, accelerated my growth exponentially. ",
                     image: '/fellows/esther.jpg',
                 },
                 {
                     name: 'Olawore Emmanuel',
                     occupation: 'Front-End Dev.',
-                    testimony: "Enrolling in DervacHub was a decision I'll forever cherish. Their comprehensive program transformed my passion for technology into tangible skills. The practical projects and real-world simulations equipped me to navigate the dynamic landscape of development. I'm immensely grateful for the opportunity and confident in recommending DervacHub to anyone seeking a transformative learning experience.",
+                    testimony: "Dervac's comprehensive program transformed my passion for technology into tangible skills. The practical projects and real-world simulations equipped me to navigate the dynamic landscape of development. I'm immensely grateful for the opportunity and confident in recommending DervacHub to anyone seeking a transformative learning experience.",
                     image: '/fellows/emma.jpg'
                 }
             ]
