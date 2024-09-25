@@ -86,8 +86,8 @@ watch :{
             </div>
             <p class="text-[#101828] text-[20px]">Phone</p>
             <p class="text-[#475467] text-[16px]">Mon-Fri from 8am to 6pm.</p>
-            <p class="text-[#224C75] text-[16px] font-semibold">0816 022 5365, 0802 694 4449,</p>
-            <p class="text-[#224C75] text-[16px] font-semibold">0909 379 0787, 0903 448 3717</p>
+            <p class="text-[#224C75] text-[16px] font-semibold">+234 816 022 5365, +234 903 448 3717,</p>
+            <p class="text-[#224C75] text-[16px] font-semibold">+234 909 379 0787, +234 802 694 4449</p>
         </div>
     </div>
 
@@ -98,8 +98,7 @@ watch :{
                 <p class="text-[#101828] font-semibold text-[20px] md:text-[36px] mb-[20px]">Get in touch</p>
                 <p class="text-[#475467] text-[20px] px-4 md:px-0">We'd love to hear from you. Please fill out this form.</p>
             </div>
-            <form>
-                <div class="flex flex-col gap-6 md:px-0 px-4">
+            <form class="flex flex-col gap-6 md:px-0 px-4">
                     <div class="flex md:flex-row flex-col gap-4 w-full">
                         <div class="text-[14px]  flex flex-col gap-2">
                             <label for="firstname" class="text-[#344054] font-[500] text-[14px]">First name</label> 
@@ -144,11 +143,42 @@ watch :{
                     </div>
 
 
-                    <div class="">
-                        <button type="submit" @click.prevent="submit" class="w-full h-[60px] rounded-md text-white text-[16px] bg-gradient-to-b from-[#224C75] to-[#0B1927]"><a href="mailto:hub@dervac.com;">Send message</a></button>
+                        <button type="submit" @click.prevent="submit" class="w-full h-[60px] rounded-md text-white text-[16px] bg-gradient-to-b from-[#224C75] to-[#0B1927]">Send message</button>
+            </form>
+            
+            
+            <!-- <form action="" method="post">
+                <div>
+                    <div>
+                        <label for="firstName">First name</label>
+                        <input class="block" type="text" id="firstName">
+                    </div>
+
+                    <div>
+                        <label for="lastName">Last name</label>
+                        <input class="block" type="text" id="lastName">
                     </div>
                 </div>
-            </form>
+
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="Email" id="email">
+                </div>
+
+
+                <div>
+                    <label id="cnctNumber">Phone Number</label>
+                    <div>
+                        <select name="country" id="">
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                        </select>
+                    </div>
+                </div>
+            </form> -->
+
         </div>
     </div>
 

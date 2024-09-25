@@ -54,7 +54,7 @@ export default defineComponent({
                     
                     <!-- subdivision of the about page -->
                     
-                    <div class="bg-[#f7f7f7] flex flex-col justify-between lg:absolute md:left-[500px] top-[68px] lg:rounded-xl sm:p-4 px-2" v-show="dropAboutUsOptions">
+                    <div class="bg-[#f7f7f7] flex z-50 transition-all duration-1000 flex-col justify-between lg:absolute md:left-[380px] top-[68px] lg:rounded-xl sm:p-4 px-2" v-show="dropAboutUsOptions">
                         <router-link to="/profile">
                             <div class="flex justify-between gap-4 sm:py-4 py-2 text-black sm:rounded-xl hover:bg-blue-100 sm:px-4 ">
                                 <div class="flex gap-2 items-center" @click="() => { dropAboutUsOptions = !dropAboutUsOptions}">
@@ -73,7 +73,7 @@ export default defineComponent({
 
                         <div class="w-full h-[2px] bg-black opacity-30"></div>
 
-                        <router-link to="/profile">
+                        <router-link to="/coWorkSpace">
                             <div class="flex justify-between gap-4 sm:py-4 py-2 text-black sm:rounded-xl hover:bg-blue-100 sm:px-4 ">
                                 <div class="flex gap-2 items-center" @click="() => { dropAboutUsOptions = !dropAboutUsOptions}">
                                     <div class="bg-gray-200 p-2 rounded-[50%] sm:block hidden">
@@ -82,7 +82,7 @@ export default defineComponent({
                                         </div>
                                     </div> 
                                         
-                                    <p class="">Team</p>
+                                    <p class="">Co-workspace</p>
                                 </div>
 
                                 <img src="../assets/images/forward-arrow-in-collaborate.svg" alt="">
@@ -187,7 +187,7 @@ export default defineComponent({
 
 
             <!-- The black background for the about sub links in the navbar -->
-        <div class="w-screen left-[-15px] top-[86px] h-screen mx-auto absolute bg-gray-50 opacity-30" v-show="dropAboutUsOptions" @click="() => { dropAboutUsOptions = !dropAboutUsOptions}"></div>
+        <div class="w-screen left-[-51px] top-[86px] h-screen mx-auto absolute bg-gray-50 opacity-30" v-show="dropAboutUsOptions" @click="() => { dropAboutUsOptions = !dropAboutUsOptions}"></div>
     </header>
 </template>
 

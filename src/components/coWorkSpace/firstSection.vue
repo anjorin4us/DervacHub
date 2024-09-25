@@ -20,7 +20,7 @@ export default defineComponent({
 <template>
     <div class="pt-8 bg-white w-full">
         <div class="bg-purple-200 mb-4">
-            <ul class="flex justify-between py-3 px-16">
+            <ul class="flex flex-wrap gap-4 md:gap-0 md:justify-between py-3 px-16 relative">
                 <li class="cursor-pointer">
                     <div class="flex items-center gap-x-1" @click="page = 1">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" ><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10M1 7h22M4 10h16m-6 4h6m0-7v10M14 7v10m3-7v1m0 3v1"/></svg>
@@ -64,13 +64,16 @@ export default defineComponent({
             </ul>
         </div>
 
-        <div class="allset">
-            <ul class="relative">
-                <li  class="text-[24px] absolute top-[5px] left-[10px] bg-gray-50 px-2"  :class=" page == 1 ? 'text-red-900' : 'text-black'"> <span class="">.</span> Dedicated Desk</li>
-                <li  class="text-[24px] absolute top-[85px] left-[240px] bg-gray-50 px-2"  :class=" page == 2 ? 'text-red-900' : 'text-black'"> <span class="">.</span> Co-Workspace</li>
-                <li  class="text-[24px] absolute top-[165px] left-[500px] bg-gray-50 px-2"  :class=" page == 3 ? 'text-red-900' : 'text-black'"> <span class="">.</span> Executive (Team) Room</li>
-                <li  class="text-[24px] absolute top-[245px] left-[800px] bg-gray-50 px-2"  :class=" page == 4 ? 'text-red-900' : 'text-black'"> <span class="">.</span> Training Lounge</li>
-                <li  class="text-[24px] absolute top-[325px] left-[1020px] bg-gray-50 px-2"  :class=" page == 5 ? 'text-red-900' : 'text-black'"> <span class="">.</span> Virtual Office</li>
+        <div class="allset relative bg-purple-300">
+            <video autoplay loop muted class="absolute w-full h-[450px] left-0 z-0 opacity-70">
+                <source src="/others/bg-video.mp4">
+            </video>
+            <ul class="relative flex flex-col gap-10 md:block">
+                <li  class="text-[24px] md:absolute md:top-[20px] md:left-[3%] bg-gray-50 px-2"  :class=" page == 1 ? 'text-red-900' : 'text-black'"> <span class="">.</span> Dedicated Desk</li>
+                <li  class="text-[24px] md:absolute md:top-[100px] md:left-[20%] bg-gray-50 px-2"  :class=" page == 2 ? 'text-red-900' : 'text-black'"> <span class="">.</span> Co-Workspace</li>
+                <li  class="text-[24px] md:absolute md:top-[180px] md:left-[40%] bg-gray-50 px-2"  :class=" page == 3 ? 'text-red-900' : 'text-black'"> <span class="">.</span> Executive (Team) Room</li>
+                <li  class="text-[24px] md:absolute md:top-[260px] md:left-[60%] bg-gray-50 px-2"  :class=" page == 4 ? 'text-red-900' : 'text-black'"> <span class="">.</span> Training Lounge</li>
+                <li  class="text-[24px] md:absolute md:top-[340px] md:left-[80%] bg-gray-50 px-2"  :class=" page == 5 ? 'text-red-900' : 'text-black'"> <span class="">.</span> Virtual Office</li>
             </ul>
         </div>
     </div>

@@ -51,7 +51,7 @@ export default defineComponent({
     animation-name: testimonial;
     animation-duration: 35s;
     animation-iteration-count: infinite;
-    animation-timing-function: linear;
+    animation-timing-function: ease;
 }
 
 @keyframes testimonial {

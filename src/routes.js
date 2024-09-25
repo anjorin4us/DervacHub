@@ -53,7 +53,7 @@ const router = createRouter({
             component: () => import ('./components/AboutUsPage/CareerPage/MainCareerPage.vue'),
         },
         {
-            path: '/Apply',
+            path: '/apply',
             name: 'ApplyNowPage',
             component: () => import ('./components/ApplyNowPage/MainApplyPage.vue'),
         },
