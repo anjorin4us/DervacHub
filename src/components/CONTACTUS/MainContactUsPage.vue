@@ -187,7 +187,7 @@ watch :{
 
                 <div class="flex flex-col gap-3">
                     <label for="UserMessage">Message</label>
-                    <textarea class="block w-full border-2 rounded-[7px] p-3 focus:border-blue-400 focus:outline-none" name="UserMessage" id="UserMessage" rows="10" placeholder="Leave us a message...."></textarea>
+                    <textarea required class="block w-full border-2 rounded-[7px] p-3 focus:border-blue-400 focus:outline-none" name="UserMessage" id="UserMessage" rows="10" placeholder="Leave us a message...."></textarea>
                 </div>
 
                 <div class="flex gap-3">
