@@ -18,7 +18,7 @@ data(){
 methods: {
     submit(){
         if(!policy){
-            this.policy = false
+            this.policy = false;
         }
     }
 },
@@ -98,7 +98,7 @@ watch :{
                 <p class="text-[#101828] font-semibold text-[20px] md:text-[36px] mb-[20px]">Get in touch</p>
                 <p class="text-[#475467] text-[20px] px-4 md:px-0">We'd love to hear from you. Please fill out this form.</p>
             </div>
-            <form class="flex flex-col gap-6 md:px-0 px-4">
+            <!-- <form class="flex flex-col gap-6 md:px-0 px-4">
                     <div class="flex md:flex-row flex-col gap-4 w-full">
                         <div class="text-[14px]  flex flex-col gap-2">
                             <label for="firstname" class="text-[#344054] font-[500] text-[14px]">First name</label> 
@@ -127,7 +127,7 @@ watch :{
                         </div>
                     </div>
                     <div class="flex flex-col gap-2 md:w-full ">
-                        <label for="message" class="text-[#344054] text-[14px] font-[500] text-[14px]">Message</label>
+                        <label for="message" class="text-[#344054] font-[500] text-[14px]">Message</label>
                         <textarea placeholder="Leave us a message ..." class="border-2 p-[10px] outline-none rounded-md" name="" id="message" cols="10" rows="5"></textarea>
                     </div>
 
@@ -144,40 +144,61 @@ watch :{
 
 
                         <button type="submit" @click.prevent="submit" class="w-full h-[60px] rounded-md text-white text-[16px] bg-gradient-to-b from-[#224C75] to-[#0B1927]">Send message</button>
-            </form>
-            
-            
-            <!-- <form action="" method="post">
-                <div>
-                    <div>
-                        <label for="firstName">First name</label>
-                        <input class="block" type="text" id="firstName">
-                    </div>
-
-                    <div>
-                        <label for="lastName">Last name</label>
-                        <input class="block" type="text" id="lastName">
-                    </div>
-                </div>
-
-                <div>
-                    <label for="email">Email</label>
-                    <input type="email" name="Email" id="email">
-                </div>
-
-
-                <div>
-                    <label id="cnctNumber">Phone Number</label>
-                    <div>
-                        <select name="country" id="">
-                            <option value=""></option>
-                            <option value=""></option>
-                            <option value=""></option>
-                            <option value=""></option>
-                        </select>
-                    </div>
-                </div>
             </form> -->
+            
+            
+            <form action="https://formspree.io/f/meojbyzv" method="POST" class="flex flex-col gap-4">
+                <div class="flex flex-col md:gap-0 gap-5 md:flex-row justify-between">
+                    <div class="flex flex-col gap-3">
+                        <label for="firstName">First name*</label>
+                        <input class="block w-full py-3 px-2 border-2 rounded-[7px] focus:border-blue-400 focus:outline-none" required placeholder="first name" type="text" id="firstName">
+                    </div>
+
+                    <div class="flex flex-col gap-3">
+                        <label for="lastName">Last name*</label>
+                        <input class="block w-full py-3 px-2 border-2 rounded-[7px] focus:border-blue-400 focus:outline-none" required placeholder="last name" type="text" id="lastName">
+                    </div>
+                </div>
+
+                <div class="flex flex-col gap-3">
+                    <label for="email">Email*</label>
+                    <input class="block w-full py-3 px-2 border-2 rounded-[7px] focus:border-blue-400 focus:outline-none" required placeholder="you@email.com" type="email" name="Email" id="email">
+                </div>
+
+
+                <div class="flex flex-col gap-3">
+                    <label id="cnctNumber">Phone Number*</label>
+                    <div class="flex gap-3 border-2 py-2 items-center rounded-[7px] px-3">
+                        <select name="cntry" id="cntryCode">
+                            <option value="NG">NG</option>
+                            <option value="US">US</option>
+                            <option value="AE">AE</option>
+                            <option value="GB">GB</option>
+                            <option value="MA">MA</option>
+                        </select>
+
+                        <div class="flex w-full py-2 gap-1">
+                            <input class="block sm:w-12 w-8" readonly :value=number type="text" name="cntryCode" >
+                            <input required class="block border-0 w-full h-full focus:border-0 focus:outline-none" type="tel" placeholder="9047592275" name="userPhoneNumber" id="userPhoneNumber">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="flex flex-col gap-3">
+                    <label for="UserMessage">Message</label>
+                    <textarea class="block w-full border-2 rounded-[7px] p-3 focus:border-blue-400 focus:outline-none" name="UserMessage" id="UserMessage" rows="10" placeholder="Leave us a message...."></textarea>
+                </div>
+
+                <div class="flex gap-3">
+                    <input type="checkbox" checked class="block h-6 w-6 rounded-sm" name="ourPolicy" id="ourPolicy">
+                    <label for="ourPolicy">Agree to our friendly privacy policy</label>
+                </div>
+
+                <input type="hidden" name="_name" value="https://hub.dervac.com//thank-you">
+
+                <button class="py-3 bg-[#102539] text-white rounded-[5px] hover:bg-blue-800">Send message</button>
+            </form>
 
         </div>
     </div>

@@ -66,7 +66,12 @@ const router = createRouter({
             path: '/coWorkSpace',
             name: 'CO-WORKSPACE',
             component: () => import ('./components/coWorkSpace/mainCoWorkPage.vue')
-        }
+        },
+        {
+            path: '/thank-you',
+            name: 'Fellow',
+            component: () => import ('./components/formSubmitted.vue')
+        },
     ],
     scrollBehavior(to, from, savedPosition) {
         if (savedPosition) {

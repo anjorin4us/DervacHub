@@ -326,7 +326,7 @@ export default function elementStores() {
                 { 
                     id: 4,
                     name: 'Dehinde Fowora',
-                    based: "Systems Infrastructure", 
+                    based: "Systems Infrastructurer", 
                     linkedIn: 'https://www.linkedin.com/in/dehinde-nasrudeen-fowora-665072b5/', 
                     website: '/fellows/dehinde.jpg', 
                     twitter: '#', 
@@ -377,9 +377,18 @@ export default function elementStores() {
                     twitter: 'https://twitter.com/MarufdeenB', 
                     imageUrl: '/teams/luqman.png', 
                 },
+                {
+                    id: 10,
+                    name: "Aliu Anas Abimbola",
+                    based: "Front-End Developer",
+                    linkedIn: "https://www.linkedin.com/in/aliuAnas/",
+                    website: '/fellows/webwiz.jpg', 
+                    twitter: 'https://twitter.com/aliuAnas', 
+                    imageUrl: '/teams/webwiz.jpg', 
+                },
                 { 
 
-                    id: 10,
+                    id: 11,
                     name: 'Fawwaz Makinde',
                     based: "Front-End Developer", 
                     linkedIn: '/fellows/fawwaz.jpg', 
