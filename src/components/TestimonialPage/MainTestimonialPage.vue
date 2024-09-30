@@ -59,7 +59,7 @@ export default defineComponent({
         transform: translateX(100%);
     }
     100% {
-        transform: translateX(-180%);
+        transform: translateX(-270%);
     }
 }
 

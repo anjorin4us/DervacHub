@@ -26,8 +26,8 @@ export default defineComponent({
         <div class="flex flex-col gap-8 z-30 lg:z-0">
             <div class="relative">
                 <div class="lg:flex lg:flex-col">
-                    <p class="main-text font-extrabold min-[330px]:text-[40px] sm:text-[45px] md:text-[50px] text-[25px] text-[#224c75] z-10">Learn, Innovate and Thrive in the</p>
-                    <p class="text-[#d82e21] main-text font-extrabold min-[330px]:text-[40px] text-[25px]">Digital World!</p>
+                    <p class="main-text italic font-extrabold min-[330px]:text-[40px] sm:text-[45px] md:text-[50px] text-[25px] text-[#224c75] z-10">Learn, Innovate and Thrive in the</p>
+                    <p class="text-[#d82e21] main-text font-black min-[330px]:text-[40px] text-[25px]">Digital World!</p>
 
                     <!-- The slant avatar images -->
                     <div class="sm:flex flex-row hidden bg-white w-fit py-3 pl-3 pr-6 rounded-[10px] lg:mx-0 mx-auto lg:absolute rotate-in-my-way top-[70px] lg:shadow-2xl right-[-80px] 2xl:right-28 z-10">
@@ -66,30 +66,32 @@ export default defineComponent({
 
 
         <!-- The second div containing the two images  -->
-        <div class="flex gap-4 sm:flex-row flex-col-reverse">
-            <!-- Mr Anjorin's image side  -->
-            <div class="bg-white sm:w-[50%] flex flex-col gap-2 rounded-[10px] shadow-2xl z-30">
-                <div class="lg:w-[270px] w-[100%] h-[70%]">
-                    <img src="./images/mrAnjorin-image.svg" alt="Mr. Anjorin" class="w-[100%] h-[100%] rounded-t-[10px]">
-                </div>
-
-                <div class="px-4 pt-4 pb-9 text-[#224c75]">
-                    <img class="w-[25px]" src="../../assets/images/dervac-main-logo.png" alt="">
-
-                    <p class="italic mt-2"><q>Get trained and mentored by industry experts</q></p>
-                </div>
-            </div>
+        <div class="flex gap-4 sm:flex-row flex-col-reverse">      
             
-            <!-- Second image side -->
+            <!-- first image side -->
             <div class="bg-white sm:w-[50%] flex flex-col gap-2 rounded-[10px] shadow-2xl z-30">
-                <div class="lg:w-[270px] w-[100%] h-[70%]">
-                    <img src="/others/firstSection.jpg" alt="class image" class="w-[100%] h-[100%] rounded-t-[10px]">
+                <div class="w-[100%]">
+                    <img src="/others/FirstSection.png" alt="class image" class="w-[100%] h- rounded-t-[10px]">
                 </div>
 
                 <div class="px-4 pt-4 pb-9 text-[#224c75]">
                     <img class="w-[25px]" src="../../assets/images/dervac-main-logo.png" alt="">
 
                     <p class="italic mt-2"><q>Gain the skills you need to land your dream job</q></p>
+                </div>
+            </div>
+
+
+            <!-- Mr Anjorin's image side  -->
+            <div class="bg-white sm:w-[50%] flex flex-col gap-2 rounded-[10px] shadow-2xl z-30">
+                <div class="w-[100%]">
+                    <img src="/others/AnjorinFirstSection.png" alt="Mr. Anjorin" class="w-[100%] h- rounded-t-[10px]">
+                </div>
+
+                <div class="px-4 pt-4 pb-9 text-[#224c75]">
+                    <img class="w-[25px]" src="../../assets/images/dervac-main-logo.png" alt="">
+
+                    <p class="italic mt-2"><q>Get trained and mentored by industry experts</q></p>
                 </div>
             </div>
 

@@ -16,7 +16,7 @@
             <img src="/courses/digitalLiteracy.png" alt="" class="rounded-[10px] w-[100%]">
             <div class="flex justify-between items-center pt-[30px]">
               <h1 class="text-[#224C75] sm:w-52 text-[24px] font-[600] leading-6 my-2">Digital Literacy</h1>
-              <p class="text-red-600 text-[14px] font-[600]">4 Weeks</p>
+              <p class="text-red-600 text-[14px] font-[600]">6 Weeks</p>
             </div>
             <p class="text-[#475467] text-[16px] font-[400]">Embark on a journey of digital literacy with our comprehensive course. Develop a solid understanding of essential computer fundamentals and data processing concepts. Learn to navigate the digital landscape confidently, from mastering basic computer operations to exploring data manipulation techniques.Gain practical skills in utilizing software</p>
             <div class="flex justify-between items-center text-[#344054] hover:text-white hover:bg-[#142c45] transition duration-1000 mt-[24px] w-[161px] border border-gray-300 rounded-[15px] py-[12px] px-[16px]">
@@ -30,7 +30,7 @@
           <div class="md:p-[21px] p-2 border border-gray-300 rounded-[15px] hover:border-0 hover:shadow-xl">
             <img src="/courses/webDevFund.png" alt="" class="rounded-[10px] w-[100%]">
             <div class="flex justify-between items-center pt-[30px]">
-              <h1 class="text-[#224C75] sm:w-52 text-[24px] font-[600] leading-6 my-2">Web Development (silver track)</h1>
+              <h1 class="text-[#224C75] sm:w-52 text-[24px] font-[600] leading-6 my-2">Web Development</h1>
               <p class="text-red-600 text-[14px] font-[600]">6 Weeks</p>
             </div>
             <p class="text-[#475467] text-[16px] font-[400]">Discover the fundamentals of web development in our introductory course. Learn HTML, CSS, and JavaScript essentials to build and style web pages. Acquire foundational skills for creating interactive and responsive websites. Perfect for beginners and those looking to grasp the basics of web development.</p>
@@ -41,15 +41,14 @@
           </div>
         </a>
 
-
         <a href="http://enroll.dervac.com" target="_blank">
           <div class="md:p-[21px] p-2 border border-gray-300 rounded-[15px] hover:border-0 hover:shadow-xl">
-            <img src="/courses/fullstack.png" alt="" class="rounded-[10px] w-[100%]">
+            <img src="/courses/excelPowerUser.png" alt="" class="rounded-[10px] w-[100%]">
             <div class="flex justify-between items-center pt-[30px]">
-              <h1 class="text-[#224C75] sm:w-52 text-[24px] font-[600] leading-6 my-2">Full-Stack</h1>
-              <p class="text-red-600 text-[14px] font-[600]">6 Months</p>
+              <h1 class="text-[#224C75] sm:w-52 text-[24px] font-[600] leading-6 my-2">Data Analytics</h1>
+              <p class="text-red-600 text-[14px] font-[600]">12 Weeks</p>
             </div>
-            <p class="text-[#475467] text-[16px] font-[400]">Discover the full range of web development in our Fullstack Web Development Mastery course. Seamlessly blend frontend and backend expertise to become a versatile developer creating holistic web solutions. Excel in FrontEnd tools for captivating interfaces, while exploring server-side technologies, APIs, databases, and security in depth.</p>
+            <p class="text-[#475467] text-[16px] font-[400]">Elevate your Excel skills in our intermediate-level course. Become a proficient Excel Power User through advanced functions, data manipulation, and visualization techniques. Uncover insights with data analysis tools, PivotTables, and charts. Ideal for individuals aiming to enhance their data handling...</p>
             <div class="flex justify-between items-center text-[#344054] hover:text-white hover:bg-[#142c45] transition duration-1000 mt-[24px] w-[161px] border border-gray-300 rounded-[15px] py-[12px] px-[16px]">
               <p class=" text-[18px] font-[400]">Enroll</p>
               <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="m11.93 5l2.83 2.83L5 17.59L6.42 19l9.76-9.75L19 12.07V5h-7.07Z"/></svg>

@@ -9,8 +9,8 @@
 
                 <img src="/others/pattern-2.png" alt="pattern" class="block absolute right-[8%] lg:top-[-120px] top-0 h-96 rotate-90">
             </div>
-            <div>
-                <img src="/others/bigAvatar.jpg" alt="" class="lg:w-[2000px ]">
+            <div class="w-full">
+                <img src="/others/bigAvatar.png" alt="" class="w-full">
             </div>
         </div>
         <div class="md:px-24 sm:px-8 px-3">
