@@ -7,7 +7,6 @@ import SixthSection from './SixthSection.vue';
 import sectionTwo from "./section-two.vue";
 import TenthSection from './TenthSection.vue';
 import EightSection from './EightSection.vue';
-import NinthSection from './NinthSection.vue';
 import TestimonialsSectionVue from './TestimonialsSection.vue';
 
 
