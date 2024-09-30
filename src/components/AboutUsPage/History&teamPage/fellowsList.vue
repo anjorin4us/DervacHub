@@ -11,6 +11,9 @@ export default defineComponent({
         }
     },
     computed:{
+        filterFellows24(){
+            return this.fellows.filter(people => people.year == 2024);
+        },
         filterFellows23(){
             return this.fellows.filter(people => people.year == 2023);
         },
@@ -32,6 +35,14 @@ export default defineComponent({
             </div>
 
             <div>
+                 <div class="pb-12">
+                    <p class="text-[25px] text-[#102539] font-bold mb-4">2024 Fellows</p>
+                    <div class="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-y-6 gap-x-8">
+                        <TeamCard v-for="people in filterFellows24" :key="people.id" :expertise="people.based"  :name="people.name" :image="people.imageUrl" class="w-full"/>
+                    </div>
+                </div>
+                
+                
                 <div class="pb-12">
                     <p class="text-[25px] text-[#102539] font-bold mb-4">2023 Fellows</p>
                     <div class="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-y-6 gap-x-8">

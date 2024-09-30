@@ -12,7 +12,8 @@ data(){
     return{
         policy: true,
         country: 'NG',
-        number: +234
+        number: +234,
+        submittedForm: false,
     }
 },
 methods: {
@@ -20,6 +21,11 @@ methods: {
         if(!policy){
             this.policy = false;
         }
+    },
+    submitForm() {
+        this.submittedForm = true;
+        localStorage.setItem('submittedForm', 'true');
+        this.$router.push('/thank-you')
     }
 },
 watch :{
@@ -122,7 +128,7 @@ watch :{
             </div>
             
             
-            <form action="https://formspree.io/f/meojbyzv" method="POST" class="flex flex-col gap-4">
+            <form @submit.prevent="submitForm" action="https://formspree.io/f/meojbyzv" method="POST" class="flex flex-col gap-4">
                 <div class="flex flex-col md:gap-0 gap-5 md:flex-row justify-between">
                     <div class="flex flex-col gap-3">
                         <label for="firstName">First name*</label>

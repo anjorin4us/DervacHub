@@ -69,8 +69,16 @@ const router = createRouter({
         },
         {
             path: '/thank-you',
-            name: 'Fellow',
-            component: () => import ('./components/formSubmitted.vue')
+            name: 'thankYou',
+            component: () => import ('./components/formSubmitted.vue'),
+            beforeEnter: (to, from, next) => {
+                const submittedForm = localStorage.getItem('submittedForm');
+                if (submittedForm === true) {
+                    next()
+                } else {
+                    next("/contact")
+                }       
+            }
         },
     ],
     scrollBehavior(to, from, savedPosition) {

@@ -20,7 +20,7 @@ export default defineComponent({
     <!-- blue #f2f6fb -->
     <!-- purple #f3e0e5 -->
 
-    <div class="grid lg:grid-cols-2 grid-cols-1 text-center relative lg:text-left md:gap-20 gap-8 bg-gradient-to-tl from-[#f2f6fb] to-[#f3e0e5] py-8 md:pb-36 md:pt-16 md:px-24 px-8 items-center font-sans">
+    <div class="grid lg:grid-cols-2 grid-cols-1 text-center relative lg:text-left md:gap-20 gap-8 bg-gradient-to-tl from-[#f2f6fb] to-[#f3e0e5] py-8 md:pb-36 md:pt-16 md:px-24 px-8 items-end font-sans">
         
         <!-- The first div containing mainly the text -->
         <div class="flex flex-col gap-8 z-30 lg:z-0">
@@ -31,10 +31,10 @@ export default defineComponent({
 
                     <!-- The slant avatar images -->
                     <div class="sm:flex flex-row hidden bg-white w-fit py-3 pl-3 pr-6 rounded-[10px] lg:mx-0 mx-auto lg:absolute rotate-in-my-way top-[70px] lg:shadow-2xl right-[-80px] 2xl:right-28 z-10">
-                        <img src="/fellows/abdrrasheed.jpg" alt="" class="flex-none w-[50px] h-[50px] block rounded-[50%]">
-                        <img src="/fellows/agba.jpg" alt="" class="flex-none w-[50px] h-[50px] block rounded-[50%]">
+                        <img src="/fellows/stanley.jpg" alt="" class="flex-none w-[50px] h-[50px] block rounded-[50%]">
+                        <img src="/fellows/dosu.jpg" alt="" class="flex-none w-[50px] h-[50px] block rounded-[50%]">
                         <img src="/fellows/Balkis.jpg" alt="" class="flex-none w-[50px] h-[50px] block rounded-[50%]">
-                        <img src="/fellows/adam.jpg" alt="" class="flex-none w-[50px] h-[50px] block rounded-[50%]">
+                        <img src="/fellows/luqman.png" alt="" class="flex-none w-[50px] h-[50px] block rounded-[50%]">
                         <img src="/fellows/adam.jpg" alt="" class="flex-none w-[50px] h-[50px] block rounded-[50%]">
                         <div class="flex-none">
                             <router-link to="/fellows">
