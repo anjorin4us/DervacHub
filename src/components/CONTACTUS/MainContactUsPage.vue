@@ -39,12 +39,34 @@ watch :{
         if(this.country == 'MA'){
             this.number =  +212
         }
+        if(this.country == 'CM'){
+            this.number =  +237
+        }
+        if(this.country == 'EG'){
+            this.number =  +20
+        }
+        if(this.country == 'GH'){
+            this.number =  +233
+        }
+        if(this.country == 'CL'){
+            this.number =  +225
+        }
+        if(this.country == 'RW'){
+            this.number =  +250
+        }
+        if(this.country == 'SO'){
+            this.number =  +252
+        }
+        if(this.country == 'ZA'){
+            this.number =  +27
+        }
+    
     }
 }
 })
 </script>
 <template>
-<div class="bg-white pb-3">
+<div class="bg-white pb-3 overflow-hidden">
 
     <!-- first section  -->
     <FirstSection  heading="We'd love to hear from you" caption="Our friendly team is always here to help you"/>
@@ -64,8 +86,8 @@ watch :{
             </div>
             <p class="text-[#101828] text-[20px]">Email</p>
             <p class="text-[#475467] text-[16px]">Our friendly team is here to help</p>
-            <p class="text-[#224C75] text-[16px] font-semibold">hub@dervac.com</p>
-            <p class="text-[#224C75] text-[16px] font-semibold">info@dervac.com</p>
+            <p class="text-[#224C75] text-[16px] font-semibold">hub@<span class="font-[bimini]">dervac</span>.com</p>
+            <p class="text-[#224C75] text-[16px] font-semibold">info@<span class="font-[bimini]">dervac</span>.com</p>
         </div>
 
 
@@ -98,53 +120,6 @@ watch :{
                 <p class="text-[#101828] font-semibold text-[20px] md:text-[36px] mb-[20px]">Get in touch</p>
                 <p class="text-[#475467] text-[20px] px-4 md:px-0">We'd love to hear from you. Please fill out this form.</p>
             </div>
-            <!-- <form class="flex flex-col gap-6 md:px-0 px-4">
-                    <div class="flex md:flex-row flex-col gap-4 w-full">
-                        <div class="text-[14px]  flex flex-col gap-2">
-                            <label for="firstname" class="text-[#344054] font-[500] text-[14px]">First name</label> 
-                            <input class="border-2 p-[10px] outline-none rounded-md w-full" placeholder="First name" type="text" id="firstname">
-                        </div>
-                        <div class="text-[14px]  flex flex-col gap-2">
-                            <label for="lastname" class="text-[#344054] font-[500] text-[14px]">Last name</label>
-                            <input class="border-2 p-[10px] outline-none rounded-md w-full" placeholder="Last name" type="text" id="lastname">
-                        </div>
-                    </div>
-                    <div class="text-[14px] flex flex-col gap-2  md:w-full">
-                        <label for="email" class="text-[#344054] font-[500] text-[14px]">Email</label>
-                        <input class="border-2 p-[10px] outline-none rounded-md " placeholder="you@email.com" type="email" id="email">
-                    </div>
-                    <div class="text-[14px] flex flex-col gap-2 ">
-                        <label for="number" class="text-[#344054] font-[500] text-[14px">Phone Number</label>
-                        <div class="flex text-lg md:w-full">
-                            <select v-model="country" name="" id="" class="border-2 p-[10px] rounded-r-[0px] outline-none rounded-md border-r-0">
-                                <option value="NG">NG</option>
-                                <option value="US">US</option>
-                                <option value="AE">AE</option>
-                                <option value="GB">GB</option>
-                                <option value="MA">MA</option>
-                            </select>
-                            <input v-model="number" class="text-[16px] border-2 border-l-0 p-[10px] rounded-l-[0px] outline-none rounded-md w-full" type="number" id="number">
-                        </div>
-                    </div>
-                    <div class="flex flex-col gap-2 md:w-full ">
-                        <label for="message" class="text-[#344054] font-[500] text-[14px]">Message</label>
-                        <textarea placeholder="Leave us a message ..." class="border-2 p-[10px] outline-none rounded-md" name="" id="message" cols="10" rows="5"></textarea>
-                    </div>
-
-
-                    <div class="flex gap-3 items-center ">
-                        <input type="checkbox" id="policy" class="w-[20px] h-[20px]" v-model="policy">
-                        <label for="policy" class="text-[#667085] text-[16px]">You agree to our friendly privacy policy</label>
-                    </div>
-
-
-                    <div class="mt-[-16px]" v-if="!policy">
-                        <p class="text-sm text-red-400 ">Agree to the privacy policy</p>
-                    </div>
-
-
-                        <button type="submit" @click.prevent="submit" class="w-full h-[60px] rounded-md text-white text-[16px] bg-gradient-to-b from-[#224C75] to-[#0B1927]">Send message</button>
-            </form> -->
             
             
             <form action="https://formspree.io/f/meojbyzv" method="POST" class="flex flex-col gap-4">
@@ -169,16 +144,23 @@ watch :{
                 <div class="flex flex-col gap-3">
                     <label id="cnctNumber">Phone Number*</label>
                     <div class="flex gap-3 border-2 py-2 items-center rounded-[7px] px-3">
-                        <select name="cntry" id="cntryCode">
+                        <select name="cntry" id="cntryCode" v-model="country" class="border-0 focus:border-0">
                             <option value="NG">NG</option>
                             <option value="US">US</option>
                             <option value="AE">AE</option>
                             <option value="GB">GB</option>
                             <option value="MA">MA</option>
+                            <option value="CM">CM</option>
+                            <option value="EG">EG</option>
+                            <option value="GH">GH</option>
+                            <option value="CL">CL</option>
+                            <option value="RW">RW</option>
+                            <option value="SO">SO</option>
+                            <option value="ZA">ZA</option>
                         </select>
 
                         <div class="flex w-full py-2 gap-1">
-                            <input class="block sm:w-12 w-8" readonly :value=number type="text" name="cntryCode" >
+                            <input class="block sm:w-12 w-8" readonly v-model="number" type="text" name="cntryCode" >
                             <input required class="block border-0 w-full h-full focus:border-0 focus:outline-none" type="tel" placeholder="9047592275" name="userPhoneNumber" id="userPhoneNumber">
                         </div>
                     </div>
@@ -191,9 +173,11 @@ watch :{
                 </div>
 
                 <div class="flex gap-3">
-                    <input type="checkbox" checked class="block h-6 w-6 rounded-sm" name="ourPolicy" id="ourPolicy">
+                    <input type="checkbox" checked class="block h-6 w-6 rounded-sm" name="ourPolicy" v-model="policy" id="policy">
                     <label for="ourPolicy">Agree to our friendly privacy policy</label>
                 </div>
+
+                <p v-if="!policy" class="text-sm text-red-400 ">Agree to the privacy policy</p>
 
                 <input type="hidden" name="_name" value="https://hub.dervac.com//thank-you">
 

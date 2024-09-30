@@ -19,7 +19,7 @@ export default defineComponent({
 <template>
     <div class="bg-[#11263b] w-[80%] mx-auto relative mb-6 text-white text-center md:py-16 py-8 px-6 rounded-[10px] my-8 items-center flex flex-col gap-6">
         <p class="md:text-[40px] text-[23px] font-bold">Start your career</p>
-        <p class="">Join over 500+ students already growing with Dervac</p>
+        <p class="">Join over 500+ students already growing with <span class="font-[bimini]">dervac</span></p>
         <div class="flex gap-4 md:flex-row flex-col md:w-fit w-full">
             <router-link to="/courses">
                 <component is="Button" class="py-2 px-4 transition-all duration-1000 ease-in-out rounded-[5px]" value="Enroll for training" :class="hovering == 1? 'bg-[#102539] text-white' : 'bg-white text-[#224c75]'" @mouseover="hovering = 1" @mouseleave="hovering = 0">Enroll for training</component>
