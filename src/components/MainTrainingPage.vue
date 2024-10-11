@@ -38,7 +38,7 @@ export default defineComponent({
 
             <div>
                 <img src="./training-hero-image.svg" alt="" class="z-30 mb-0 relative">
-                <img src="./LandingPage/images/blue-curve.svg" alt="" class="absolute right-0 top-0 lg:block hidden">
+                <img src="/others/blue-curve.svg" alt="" class="absolute right-0 top-0 lg:block hidden">
             </div>
             <div class="lg:hidden mb-32 w-full">
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSctTqRUCsfiDETeMGAp-I3oi6bgBoeBVn5ijgP953fQEmlzRA/viewform" target="_blank">
