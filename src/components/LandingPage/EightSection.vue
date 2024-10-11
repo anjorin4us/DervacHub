@@ -70,57 +70,7 @@ export default defineComponent({
 </script>
 
 <template>
-    <!-- <section class="py-[2em] px-[4em] w-[700px] mx-auto">
-        <div class="text-center py-[2em] space-y-2">
-            <p class="text-[2em] font-bold">Frequently asked questions</p>
-            <p class="">Everything you need to know about Dervac</p>
-        </div>
-        <div class="bullet-features">
-            <div class="space-y-14 ">
-                <div class="bullet flex gap-[2em]">
-                    <img src="./images/minus-icon-gray-color.svg" class="" alt="">
-
-                    <div>
-                        <p class="font-bold">What Does Dervac HUB Do?</p>
-                        <p>Dervac HUB is an initiative od Dervac Global Services Ltd non-profit partnership program that authorizes global universities and colleges to deliver industry-recognized Huawei Certification courses to students.</p>
-                    </div>
-                    
-                </div>
-
-                <div class="bullet flex gap-[2em]">
-                    <img src="./images/minus-icon-gray-color.svg" class="" alt="">
-                    <p class="font-bold">How Can I Enroll Into dervac HUB fellowship programs?</p>
-                </div>
-
-                <div class="bullet flex gap-[2em]">
-                    <img src="./images/minus-icon-gray-color.svg" class="" alt="">
-                    <p class="font-bold">What Next, After Registration?</p>
-                </div>
-
-                <div class="bullet flex gap-[2em]">
-                    <img src="./images/minus-icon-gray-color.svg" class="" alt="">
-                    <p class="font-bold">What Happens If I Don’t Pass The Assessment?</p>
-                </div>
-
-                <div class="bullet flex gap-[2em]">
-                    <img src="./images/minus-icon-gray-color.svg" class="" alt="">
-                    <p class="font-bold">When Will Classes For The First Cohort Start?</p>
-                </div>
-
-                <div class="bullet flex gap-[2em]">
-                    <img src="./images/minus-icon-gray-color.svg" class="" alt="">
-                    <p class="font-bold">How Long Is The Fellowship Program?</p>
-                </div>
-
-                
-            </div>
-
-            <div class="text-center pt-[4em]">
-                <button class="bg-gray-200 px-[1.5em] py-[0.5em] font-bold rounded-[5px]" >See more</button>
-            </div>
-        </div>
-    </section> -->
-
+   
     <div class="md:w-[50%] md:px-0 px-6 md:mx-auto pt-16 flex flex-col gap-12 font-sans">
         <div class="text-center">
             <p class="font-extra8old md:text-[40px] text-[25px]">Frequently Asked Questions</p>
@@ -131,8 +81,8 @@ export default defineComponent({
             <div class="flex gap-6 p-6">
 
                 <div class="flex w-fit h-fit">
-                    <img src="./images/plus-icon-gray-color.svg" v-if="!showFaqsAnswerOne" alt="" @click="displayOne">
-                    <img src="./images/minus-icon-gray-color.svg" v-else alt="" @click="showFaqsAnswerOne = false">
+                    <img src="/others/plus-icon-gray-color.svg" v-if="!showFaqsAnswerOne" alt="" @click="displayOne">
+                    <img src="/others/minus-icon-gray-color.svg" v-else alt="" @click="showFaqsAnswerOne = false">
                 </div>
 
 
@@ -146,8 +96,8 @@ export default defineComponent({
             <div class="flex gap-6 p-6">
 
                 <div class="flex w-fit h-fit" >
-                    <img src="./images/plus-icon-gray-color.svg" v-if="!showFaqsAnswerTwo" alt="" @click="displayTwo">
-                    <img src="./images/minus-icon-gray-color.svg" v-else alt="" @click="showFaqsAnswerTwo = false">
+                    <img src="/others/plus-icon-gray-color.svg" v-if="!showFaqsAnswerTwo" alt="" @click="displayTwo">
+                    <img src="/others/minus-icon-gray-color.svg" v-else alt="" @click="showFaqsAnswerTwo = false">
                 </div>
                 <div class="w-[90%] flex flex-col gap-4 md:text-left text-center" :class="showFaqsAnswerTwo ? 'bg-blue-50 p-6' : 'bg-none'">
                     <p class="font-semibold text-[13px] sm:text-[18px]" :class="showFaqsAnswerTwo ? 'text-left' : 'md:text-left text-center'">How Can I Enroll Into Dervac Hub Fellowship Program</p>
@@ -158,8 +108,8 @@ export default defineComponent({
             <div class="flex gap-6 p-6">
 
                 <div class="flex w-fit h-fit">
-                    <img src="./images/plus-icon-gray-color.svg" v-if="!showFaqsAnswerThree" alt="" @click="displayThree">
-                    <img src="./images/minus-icon-gray-color.svg" v-else alt="" @click="showFaqsAnswerThree = false">
+                    <img src="/others/plus-icon-gray-color.svg" v-if="!showFaqsAnswerThree" alt="" @click="displayThree">
+                    <img src="/others/minus-icon-gray-color.svg" v-else alt="" @click="showFaqsAnswerThree = false">
                 </div>
                 <div class="w-[90%] flex flex-col gap-4 md:text-left text-center" :class="showFaqsAnswerThree ? 'bg-blue-50 p-6' : 'bg-none'">
                     <p class="font-semibold text-[13px] sm:text-[18px]" :class="showFaqsAnswerThree ? 'text-left' : 'md:text-left text-center'">What Next After Registration?</p>
@@ -170,8 +120,8 @@ export default defineComponent({
             <div class="flex gap-6 p-6">
 
                 <div class="flex w-fit h-fit">
-                    <img src="./images/plus-icon-gray-color.svg" v-if="!showFaqsAnswerFour" alt="" @click="displayFour">
-                    <img src="./images/minus-icon-gray-color.svg" v-else alt="" @click="showFaqsAnswerFour = false">
+                    <img src="/others/plus-icon-gray-color.svg" v-if="!showFaqsAnswerFour" alt="" @click="displayFour">
+                    <img src="/others/minus-icon-gray-color.svg" v-else alt="" @click="showFaqsAnswerFour = false">
                 </div>
                 <div class="w-[90%] flex flex-col gap-4 md:text-left text-center" :class="showFaqsAnswerFour ? 'bg-blue-50 p-6' : 'bg-none'">
                     <p class="font-semibold text-[13px] sm:text-[18px]" :class="showFaqsAnswerFour ? 'text-left' : 'md:text-left text-center'">What Happens If I Don't Pass The Assessment?</p>
@@ -183,8 +133,8 @@ export default defineComponent({
             <div class="flex gap-6 p-6">
 
                 <div class="flex w-fit h-fit">
-                    <img src="./images/plus-icon-gray-color.svg" v-if="!showFaqsAnswerFive" alt="" @click="displayFive">
-                    <img src="./images/minus-icon-gray-color.svg" v-else alt="" @click="showFaqsAnswerFive = false">
+                    <img src="/others/plus-icon-gray-color.svg" v-if="!showFaqsAnswerFive" alt="" @click="displayFive">
+                    <img src="/others/minus-icon-gray-color.svg" v-else alt="" @click="showFaqsAnswerFive = false">
                 </div>
                 <div class="w-[90%] flex flex-col gap-4 md:text-left text-center" :class="showFaqsAnswerFive ? 'bg-blue-50 p-6' : 'bg-none'">
                     <p class="font-semibold text-[13px] sm:text-[18px]" :class="showFaqsAnswerFive ? 'text-left' : 'md:text-left text-center'">When Will Class For The First Cohort Start?</p>
@@ -196,8 +146,8 @@ export default defineComponent({
             <div class="flex gap-6 p-6">
 
                 <div class="flex w-fit h-fit">
-                    <img src="./images/plus-icon-gray-color.svg" v-if="!showFaqsAnswerSix" alt="" @click="displaySix">
-                    <img src="./images/minus-icon-gray-color.svg" v-else alt="" @click="showFaqsAnswerSix = false">
+                    <img src="/others/plus-icon-gray-color.svg" v-if="!showFaqsAnswerSix" alt="" @click="displaySix">
+                    <img src="/others/minus-icon-gray-color.svg" v-else alt="" @click="showFaqsAnswerSix = false">
                 </div>
                 <div class="w-[90%] flex flex-col gap-4 md:text-left text-center" :class="showFaqsAnswerSix ? 'bg-blue-50 p-6' : 'bg-none'">
                     <p class="font-semibold text-[13px] sm:text-[18px]" :class="showFaqsAnswerSix ? 'text-left' : 'md:text-left text-center'">How Long Is The Fellowship Program?</p>

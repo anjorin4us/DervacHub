@@ -14,9 +14,6 @@
             </div>
         </div>
         <div class="md:px-24 sm:px-8 px-3">
-            <div class="w-full relative z-[0]">
-                <!-- <img class="absolute right-[0] z-[0]" src="./images/Ellipse 19.svg" alt=""> -->
-            </div>
             <div class="">
                 <div class="flex flex-col gap-[2rem] font-[600] w-full h-fit bg-white">
                     <div class="flex">

@@ -24,13 +24,15 @@ export default defineComponent({
             <router-link to="/courses">
                 <component is="Button" class="py-2 px-4 transition-all duration-1000 ease-in-out rounded-[5px]" value="Enroll for training" :class="hovering == 1? 'bg-[#102539] text-white' : 'bg-white text-[#224c75]'" @mouseover="hovering = 1" @mouseleave="hovering = 0">Enroll for training</component>
             </router-link>
+
+            
             <router-link to="/career">
                 <component is="Button" class="bg-[#224C75] transition-all duration-1000 ease-in-out py-2 px-4 rounded-[5px] md:w-fit w-full" value="Join Fellowship" :class="hovering == 0? 'bg-[#102539] text-white' : 'bg-white text-[#224c75]'">Join Fellowship</component>
             </router-link>
         </div>
 
-        <img src="./images//left.svg" alt="" class="absolute top-0 left-0" />
-        <img src="./images/right-curve.svg" alt="" class="absolute right-0 bottom-0">
+        <img src="/others/left.svg" alt="" class="absolute top-0 left-0" />
+        <img src="/others/right-curve.svg" alt="" class="absolute right-0 bottom-0">
     </div>
 </template>
 

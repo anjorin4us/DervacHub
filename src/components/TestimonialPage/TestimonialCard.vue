@@ -13,11 +13,11 @@ export  default defineComponent({
     <div class=" flex flex-col gap-4 justify-between h-full w-[300px] bg-white px-6 rounded-[10px] py-2 text-[13px] md:text-[15px] shadow-2xl shadow-gray-400">
 
        <div class="flex md:mx-0 mx-auto">
-            <img src="../LandingPage/images/Star.svg" alt="rating">
-            <img src="../LandingPage/images/Star.svg" alt="rating">
-            <img src="../LandingPage/images/Star.svg" alt="rating">
-            <img src="../LandingPage/images/Star.svg" alt="rating">
-            <img src="../LandingPage/images/Star.svg" alt="rating">
+            <img src="/others/Star.svg" alt="rating">
+            <img src="/others/Star.svg" alt="rating">
+            <img src="/others/Star.svg" alt="rating">
+            <img src="/others/Star.svg" alt="rating">
+            <img src="/others/Star.svg" alt="rating">
        </div> 
 
 

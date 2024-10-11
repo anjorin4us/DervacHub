@@ -13,7 +13,7 @@ export default defineComponent({
 
 <template>
 
-    <div class="bg-white pb-12">
+    <div class="bg-white pb-12 overflow-hidden">
         <FirstSection heading="We are here to help" caption="Have question(s)? We are here to help" />
         <SecondSection />
         <ThirdSection />

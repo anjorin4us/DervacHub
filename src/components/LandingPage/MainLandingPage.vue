@@ -11,7 +11,7 @@ import TestimonialsSectionVue from './TestimonialsSection.vue';
 
 
 export default defineComponent({
-    components:{FirstSection,fourth, FifthSection, SixthSection, sectionTwo, TenthSection, EightSection, NinthSection, TestimonialsSectionVue},
+    components:{FirstSection,fourth, FifthSection, SixthSection, sectionTwo, TenthSection, EightSection, TestimonialsSectionVue},
 })
 </script>
 

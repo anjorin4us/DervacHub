@@ -44,8 +44,8 @@ export default defineComponent({
             <div class="flex gap-6 p-6">
 
                 <div class="flex w-fit h-fit" @click="() => this.showRealFaqsAnswerOne = !this.showRealFaqsAnswerOne">
-                    <img src="../../LandingPage/images/plus-icon-gray-color.svg" v-if="!showRealFaqsAnswerOne" alt="">
-                    <img src="../../LandingPage/images/minus-icon-gray-color.svg" v-else alt="">
+                    <img src="others/plus-icon-gray-color.svg" v-if="!showRealFaqsAnswerOne" alt="icon">
+                    <img src="others/minus-icon-gray-color.svg" v-else alt="icon">
                 </div>
 
 
@@ -59,8 +59,8 @@ export default defineComponent({
             <div class="flex gap-6 p-6">
 
                 <div class="flex w-fit h-fit" @click="() => this.showRealFaqsAnswerTwo = !this.showRealFaqsAnswerTwo">
-                    <img src="../../LandingPage/images/plus-icon-gray-color.svg" v-if="!showRealFaqsAnswerTwo" alt="">
-                    <img src="../../LandingPage/images/minus-icon-gray-color.svg" v-else alt="">
+                    <img src="others/plus-icon-gray-color.svg" v-if="!showRealFaqsAnswerTwo" alt="icon">
+                    <img src="others/minus-icon-gray-color.svg" v-else alt="icon">
                 </div>
                 <div class="w-[90%] flex flex-col gap-4 md:text-left text-center" :class="showRealFaqsAnswerTwo ? 'bg-blue-50 p-6' : 'bg-none'">
                     <p class="font-medium text-[13px] sm:text-[18px]" :class="showRealFaqsAnswerTwo ? 'text-left' : 'md:text-left text-center'">How Can I Enroll Into Dervac Hub Fellowship Program</p>
@@ -71,8 +71,8 @@ export default defineComponent({
             <div class="flex gap-6 p-6">
 
                 <div class="flex w-fit h-fit" @click="() => this.showRealFaqsAnswerThree = !this.showRealFaqsAnswerThree">
-                    <img src="../../LandingPage/images/plus-icon-gray-color.svg" v-if="!showRealFaqsAnswerThree" alt="">
-                    <img src="../../LandingPage/images/minus-icon-gray-color.svg" v-else alt="">
+                    <img src="others/plus-icon-gray-color.svg" v-if="!showRealFaqsAnswerThree" alt="icon">
+                    <img src="others/minus-icon-gray-color.svg" v-else alt="icon">
                 </div>
                 <div class="w-[90%] flex flex-col gap-4 md:text-left text-center" :class="showRealFaqsAnswerThree ? 'bg-blue-50 p-6' : 'bg-none'">
                     <p class="font-medium text-[13px] sm:text-[18px]" :class="showRealFaqsAnswerThree ? 'text-left' : 'md:text-left text-center'">What Next After Registration?</p>
@@ -83,8 +83,8 @@ export default defineComponent({
             <div class="flex gap-6 p-6">
 
                 <div class="flex w-fit h-fit" @click="() => this.showRealFaqsAnswerFour = !this.showRealFaqsAnswerFour">
-                    <img src="../../LandingPage/images/plus-icon-gray-color.svg" v-if="!showRealFaqsAnswerFour" alt="">
-                    <img src="../../LandingPage/images/minus-icon-gray-color.svg" v-else alt="">
+                    <img src="others/plus-icon-gray-color.svg" v-if="!showRealFaqsAnswerFour" alt="icon">
+                    <img src="others/minus-icon-gray-color.svg" v-else alt="icon">
                 </div>
                 <div class="w-[90%] flex flex-col gap-4 md:text-left text-center" :class="showRealFaqsAnswerFour ? 'bg-blue-50 p-6' : 'bg-none'">
                     <p class="font-medium text-[13px] sm:text-[18px]" :class="showRealFaqsAnswerFour ? 'text-left' : 'md:text-left text-center'">What Happens If I Don't Pass The Assessment?</p>
@@ -96,8 +96,8 @@ export default defineComponent({
             <div class="flex gap-6 p-6">
 
                 <div class="flex w-fit h-fit" @click="() => this.showRealFaqsAnswerFive = !this.showRealFaqsAnswerFive">
-                    <img src="../../LandingPage/images/plus-icon-gray-color.svg" v-if="!showRealFaqsAnswerFive" alt="">
-                    <img src="../../LandingPage/images/minus-icon-gray-color.svg" v-else alt="">
+                    <img src="others/plus-icon-gray-color.svg" v-if="!showRealFaqsAnswerFive" alt="icon">
+                    <img src="others/minus-icon-gray-color.svg" v-else alt="icon">
                 </div>
                 <div class="w-[90%] flex flex-col gap-4 md:text-left text-center" :class="showRealFaqsAnswerFive ? 'bg-blue-50 p-6' : 'bg-none'">
                     <p class="font-medium text-[13px] sm:text-[18px]" :class="showRealFaqsAnswerFive ? 'text-left' : 'md:text-left text-center'">When Will Class For The First Cohort Start?</p>
@@ -109,8 +109,8 @@ export default defineComponent({
             <div class="flex gap-6 p-6">
 
                 <div class="flex w-fit h-fit" @click="() => this.showRealFaqsAnswerSix = !this.showRealFaqsAnswerSix">
-                    <img src="../../LandingPage/images/plus-icon-gray-color.svg" v-if="!showRealFaqsAnswerSix" alt="">
-                    <img src="../../LandingPage/images/minus-icon-gray-color.svg" v-else alt="">
+                    <img src="others/plus-icon-gray-color.svg" v-if="!showRealFaqsAnswerSix" alt="icon">
+                    <img src="others/minus-icon-gray-color.svg" v-else alt="icon">
                 </div>
                 <div class="w-[90%] flex flex-col gap-4 md:text-left text-center" :class="showRealFaqsAnswerSix ? 'bg-blue-50 p-6' : 'bg-none'">
                     <p class="font-medium text-[13px] sm:text-[18px]" :class="showRealFaqsAnswerSix ? 'text-left' : 'md:text-left text-center'">How Long Is The Fellowship Program?</p>
@@ -123,8 +123,8 @@ export default defineComponent({
             <div class="flex gap-6 p-6">
 
                 <div class="flex w-fit h-fit" @click="() => this.showRealFaqsAnswerSeven = !this.showRealFaqsAnswerSeven">
-                    <img src="../../LandingPage/images/plus-icon-gray-color.svg" v-if="!showRealFaqsAnswerSeven" alt="">
-                    <img src="../../LandingPage/images/minus-icon-gray-color.svg" v-else alt="">
+                    <img src="others/plus-icon-gray-color.svg" v-if="!showRealFaqsAnswerSeven" alt="icon">
+                    <img src="others/minus-icon-gray-color.svg" v-else alt="icon">
                 </div>
                 <div class="w-[90%] flex flex-col gap-4 md:text-left text-center" :class="showRealFaqsAnswerSeven ? 'bg-blue-50 p-6' : 'bg-none'">
                     <p class="font-medium text-[13px] sm:text-[18px]" :class="showRealFaqsAnswerSeven ? 'text-left' : 'md:text-left text-center'">If I Am Succesful, Can I Defer My Admission?</p>
@@ -138,8 +138,8 @@ export default defineComponent({
             <div class="flex gap-6 p-6">
 
                 <div class="flex w-fit h-fit" @click="() => this.showRealFaqsAnswerEight = !this.showRealFaqsAnswerEight">
-                    <img src="../../LandingPage/images/plus-icon-gray-color.svg" v-if="!showRealFaqsAnswerEight" alt="">
-                    <img src="../../LandingPage/images/minus-icon-gray-color.svg" v-else alt="">
+                    <img src="others/plus-icon-gray-color.svg" v-if="!showRealFaqsAnswerEight" alt="icon">
+                    <img src="others/minus-icon-gray-color.svg" v-else alt="icon">
                 </div>
                 <div class="w-[90%] flex flex-col gap-4 md:text-left text-center" :class="showRealFaqsAnswerEight ? 'bg-blue-50 p-6' : 'bg-none'">
                     <p class="font-medium text-[13px] sm:text-[18px]" :class="showRealFaqsAnswerEight ? 'text-left' : 'md:text-left text-center'">Will I Get A Certificate At The End Of The Training?</p>
@@ -153,8 +153,8 @@ export default defineComponent({
             <div class="flex gap-6 p-6">
 
                 <div class="flex w-fit h-fit" @click="() => this.showRealFaqsAnswerNine = !this.showRealFaqsAnswerNine">
-                    <img src="../../LandingPage/images/plus-icon-gray-color.svg" v-if="!showRealFaqsAnswerNine" alt="">
-                    <img src="../../LandingPage/images/minus-icon-gray-color.svg" v-else alt="">
+                    <img src="others/plus-icon-gray-color.svg" v-if="!showRealFaqsAnswerNine" alt="icon">
+                    <img src="others/minus-icon-gray-color.svg" v-else alt="icon">
                 </div>
                 <div class="w-[90%] flex flex-col gap-4 md:text-left text-center" :class="showRealFaqsAnswerNine ? 'bg-blue-50 p-6' : 'bg-none'">
                     <p class="font-medium text-[13px] sm:text-[18px]" :class="showRealFaqsAnswerNine ? 'text-left' : 'md:text-left text-center'">Are There Any Other Benefit That Comes With the Training?</p>
@@ -168,8 +168,8 @@ export default defineComponent({
             <div class="flex gap-6 p-6">
 
                 <div class="flex w-fit h-fit" @click="() => this.showRealFaqsAnswerTen = !this.showRealFaqsAnswerTen">
-                    <img src="../../LandingPage/images/plus-icon-gray-color.svg" v-if="!showRealFaqsAnswerTen" alt="">
-                    <img src="../../LandingPage/images/minus-icon-gray-color.svg" v-else alt="">
+                    <img src="others/plus-icon-gray-color.svg" v-if="!showRealFaqsAnswerTen" alt="icon">
+                    <img src="others/minus-icon-gray-color.svg" v-else alt="icon">
                 </div>
                 <div class="w-[90%] flex flex-col gap-4 md:text-left text-center" :class="showRealFaqsAnswerTen ? 'bg-blue-50 p-6' : 'bg-none'">
                     <p class="font-medium text-[13px] sm:text-[18px]" :class="showRealFaqsAnswerTen ? 'text-left' : 'md:text-left text-center'">Do I Need To Have A background In Tech To Apply?</p>
@@ -183,8 +183,8 @@ export default defineComponent({
             <div class="flex gap-6 p-6">
 
                 <div class="flex w-fit h-fit" @click="() => this.showRealFaqsAnswerEleven = !this.showRealFaqsAnswerEleven">
-                    <img src="../../LandingPage/images/plus-icon-gray-color.svg" v-if="!showRealFaqsAnswerEleven" alt="">
-                    <img src="../../LandingPage/images/minus-icon-gray-color.svg" v-else alt="">
+                    <img src="others/plus-icon-gray-color.svg" v-if="!showRealFaqsAnswerEleven" alt="icon">
+                    <img src="others/minus-icon-gray-color.svg" v-else alt="icon">
                 </div>
                 <div class="w-[90%] flex flex-col gap-4 md:text-left text-center" :class="showRealFaqsAnswerEleven ? 'bg-blue-50 p-6' : 'bg-none'">
                     <p class="font-medium text-[13px] sm:text-[18px]" :class="showRealFaqsAnswerEleven ? 'text-left' : 'md:text-left text-center'">What Qualifies Me To Get Accepted Into The Fellowship Program?</p>
@@ -198,8 +198,8 @@ export default defineComponent({
             <div class="flex gap-6 p-6">
 
                 <div class="flex w-fit h-fit" @click="() => this.showRealFaqsAnswerTwelve = !this.showRealFaqsAnswerTwelve">
-                    <img src="../../LandingPage/images/plus-icon-gray-color.svg" v-if="!showRealFaqsAnswerTwelve" alt="">
-                    <img src="../../LandingPage/images/minus-icon-gray-color.svg" v-else alt="">
+                    <img src="others/plus-icon-gray-color.svg" v-if="!showRealFaqsAnswerTwelve" alt="icon">
+                    <img src="others/minus-icon-gray-color.svg" v-else alt="icon">
                 </div>
                 <div class="w-[90%] flex flex-col gap-4 md:text-left text-center" :class="showRealFaqsAnswerTwelve ? 'bg-blue-50 p-6' : 'bg-none'">
                     <p class="font-medium text-[13px] sm:text-[18px]" :class="showRealFaqsAnswerTwelve ? 'text-left' : 'md:text-left text-center'">How Much Is The Tuition Fee?</p>
@@ -213,8 +213,8 @@ export default defineComponent({
             <div class="flex gap-6 p-6">
 
                 <div class="flex w-fit h-fit" @click="() => this.showRealFaqsAnswerThirteen = !this.showRealFaqsAnswerThirteen">
-                    <img src="../../LandingPage/images/plus-icon-gray-color.svg" v-if="!showRealFaqsAnswerThirteen" alt="">
-                    <img src="../../LandingPage/images/minus-icon-gray-color.svg" v-else alt="">
+                    <img src="others/plus-icon-gray-color.svg" v-if="!showRealFaqsAnswerThirteen" alt="icon">
+                    <img src="others/minus-icon-gray-color.svg" v-else alt="icon">
                 </div>
                 <div class="w-[90%] flex flex-col gap-4 md:text-left text-center" :class="showRealFaqsAnswerThirteen ? 'bg-blue-50 p-6' : 'bg-none'">
                     <p class="font-medium text-[13px] sm:text-[18px]" :class="showRealFaqsAnswerThirteen ? 'text-left' : 'md:text-left text-center'">Will I Receive Any Assistance In Securing A Job After I Graduate?</p>
@@ -228,8 +228,8 @@ export default defineComponent({
             <div class="flex gap-6 p-6">
 
                 <div class="flex w-fit h-fit" @click="() => this.showRealFaqsAnswerFourteen = !this.showRealFaqsAnswerFourteen">
-                    <img src="../../LandingPage/images/plus-icon-gray-color.svg" v-if="!showRealFaqsAnswerFourteen" alt="">
-                    <img src="../../LandingPage/images/minus-icon-gray-color.svg" v-else alt="">
+                    <img src="others/plus-icon-gray-color.svg" v-if="!showRealFaqsAnswerFourteen" alt="icon">
+                    <img src="others/minus-icon-gray-color.svg" v-else alt="icon">
                 </div>
                 <div class="w-[90%] flex flex-col gap-4 md:text-left text-center" :class="showRealFaqsAnswerFourteen ? 'bg-blue-50 p-6' : 'bg-none'">
                     <p class="font-medium text-[13px] sm:text-[18px]" :class="showRealFaqsAnswerFourteen ? 'text-left' : 'md:text-left text-center'">What Will I Learn In Classes During The Seven Months?</p>
@@ -243,8 +243,8 @@ export default defineComponent({
             <div class="flex gap-6 p-6">
 
                 <div class="flex w-fit h-fit" @click="() => this.showRealFaqsAnswerFifteen = !this.showRealFaqsAnswerFifteen">
-                    <img src="../../LandingPage/images/plus-icon-gray-color.svg" v-if="!showRealFaqsAnswerFifteen" alt="">
-                    <img src="../../LandingPage/images/minus-icon-gray-color.svg" v-else alt="">
+                    <img src="others/plus-icon-gray-color.svg" v-if="!showRealFaqsAnswerFifteen" alt="icon">
+                    <img src="others/minus-icon-gray-color.svg" v-else alt="icon">
                 </div>
                 <div class="w-[90%] flex flex-col gap-4 md:text-left text-center" :class="showRealFaqsAnswerFifteen ? 'bg-blue-50 p-6' : 'bg-none'">
                     <p class="font-medium text-[13px] sm:text-[18px]" :class="showRealFaqsAnswerFifteen ? 'text-left' : 'md:text-left text-center'">Where Will The Class Take Place?</p>
@@ -257,8 +257,8 @@ export default defineComponent({
             <div class="flex gap-6 p-6">
 
                 <div class="flex w-fit h-fit" @click="() => this.showRealFaqsAnswerSixteen = !this.showRealFaqsAnswerSixteen">
-                    <img src="../../LandingPage/images/plus-icon-gray-color.svg" v-if="!showRealFaqsAnswerSixteen" alt="">
-                    <img src="../../LandingPage/images/minus-icon-gray-color.svg" v-else alt="">
+                    <img src="others/plus-icon-gray-color.svg" v-if="!showRealFaqsAnswerSixteen" alt="icon">
+                    <img src="others/minus-icon-gray-color.svg" v-else alt="icon">
                 </div>
                 <div class="w-[90%] flex flex-col gap-4 md:text-left text-center" :class="showRealFaqsAnswerSixteen ? 'bg-blue-50 p-6' : 'bg-none'">
                     <p class="font-medium text-[13px] sm:text-[18px]" :class="showRealFaqsAnswerSixteen ? 'text-left' : 'md:text-left text-center'">How Will Application Run For?</p>
@@ -271,8 +271,8 @@ export default defineComponent({
             <div class="flex gap-6 p-6">
 
                 <div class="flex w-fit h-fit" @click="() => this.showRealFaqsAnswerSeventeen = !this.showRealFaqsAnswerSeventeen">
-                    <img src="../../LandingPage/images/plus-icon-gray-color.svg" v-if="!showRealFaqsAnswerSeventeen" alt="">
-                    <img src="../../LandingPage/images/minus-icon-gray-color.svg" v-else alt="">
+                    <img src="others/plus-icon-gray-color.svg" v-if="!showRealFaqsAnswerSeventeen" alt="icon">
+                    <img src="others/minus-icon-gray-color.svg" v-else alt="icon">
                 </div>
                 <div class="w-[90%] flex flex-col gap-4 md:text-left text-center" :class="showRealFaqsAnswerSeventeen ? 'bg-blue-50 p-6' : 'bg-none'">
                     <p class="font-medium text-[13px] sm:text-[18px]" :class="showRealFaqsAnswerSeventeen ? 'text-left' : 'md:text-left text-center'">How Can I Collaborate / Partner With Dervac?</p>
@@ -285,8 +285,8 @@ export default defineComponent({
             <div class="flex gap-6 p-6">
 
                 <div class="flex w-fit h-fit" @click="() => this.showRealFaqsAnswerEighteen = !this.showRealFaqsAnswerEighteen">
-                    <img src="../../LandingPage/images/plus-icon-gray-color.svg" v-if="!showRealFaqsAnswerEighteen" alt="">
-                    <img src="../../LandingPage/images/minus-icon-gray-color.svg" v-else alt="">
+                    <img src="others/plus-icon-gray-color.svg" v-if="!showRealFaqsAnswerEighteen" alt="icon">
+                    <img src="others/minus-icon-gray-color.svg" v-else alt="icon">
                 </div>
                 <div class="w-[90%] flex flex-col gap-4 md:text-left text-center" :class="showRealFaqsAnswerEighteen ? 'bg-blue-50 p-6' : 'bg-none'">
                     <p class="font-medium text-[13px] sm:text-[18px]" :class="showRealFaqsAnswerEighteen ? 'text-left' : 'md:text-left text-center'">How Long Is The Fellowship Program?</p>
@@ -300,8 +300,8 @@ export default defineComponent({
             <div class="flex gap-6 p-6">
 
                 <div class="flex w-fit h-fit" @click="() => this.showRealFaqsAnswerNineteen = !this.showRealFaqsAnswerNineteen">
-                    <img src="../../LandingPage/images/plus-icon-gray-color.svg" v-if="!showRealFaqsAnswerNineteen" alt="">
-                    <img src="../../LandingPage/images/minus-icon-gray-color.svg" v-else alt="">
+                    <img src="others/plus-icon-gray-color.svg" v-if="!showRealFaqsAnswerNineteen" alt="icon">
+                    <img src="others/minus-icon-gray-color.svg" v-else alt="icon">
                 </div>
                 <div class="w-[90%] flex flex-col gap-4 md:text-left text-center" :class="showRealFaqsAnswerNineteen ? 'bg-blue-50 p-6' : 'bg-none'">
                     <p class="font-medium text-[13px] sm:text-[18px]" :class="showRealFaqsAnswerNineteen ? 'text-left' : 'md:text-left text-center'">Holiday And Absence Policy?</p>

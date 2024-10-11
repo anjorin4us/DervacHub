@@ -23,7 +23,7 @@ export default defineComponent({
                 <!-- logo -->
                 <router-link to="/">
                     <div id="logo" class="flex space-x-[3px] items-center" @click="() => { drop = false;}">
-                        <img src="../assets/images/dervac-main-logo.png" alt="" class="">
+                        <img src="others/dervac-main-logo.png" alt="Logo Image" class="">
                         <p class="font-[bimini] sm:text-[25px] sm:block hidden text-[#224c75] font-semibold">dervac<span class="text-red-600">HUB</span></p>
                     </div>
                 </router-link>
@@ -120,7 +120,7 @@ export default defineComponent({
 
         <router-link to="/">
             <div id="logo" class="flex space-x-[3px] items-center md:hidden mt-8 mb-4 " @click="() => { drop = false;}">
-                <img src="../assets/images/dervac-main-logo.png" alt="" class="">
+                <img src="others/dervac-main-logo.png" alt="Logo Image" class="">
                 <p class="font-[Bimini] sm:text-[25px] sm:block hidden text-[#224c75] font-semibold">dervac<span class="text-red-600">HUB</span></p>
             </div>
         </router-link>

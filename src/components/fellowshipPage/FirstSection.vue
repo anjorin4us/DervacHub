@@ -27,8 +27,8 @@ export default defineComponent({
         </div>
 
         <div class="w-full md:flex lg:block items-center justify-center">
-            <img src="./images/boy-with-laptop-in-first-section.svg" alt="" class="relative z-30">
-            <img src="./images/blue-curve.svg" alt="" class="absolute right-0 hidden lg:block lg:top-6 w-[500px] lg:h-[500px]">
+            <img src="/others/boy-with-laptop-in-first-section.svg" alt="" class="relative z-30">
+            <img src="/others/blue-curve.svg" alt="" class="absolute right-0 hidden lg:block lg:top-6 w-[500px] lg:h-[500px]">
         </div>
         <div class="md:hidden">
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSdndewi_sgAyghPlSEMkDJhp3mI_IBstCy0HxQkxOGNixcHdQ/viewform" target="_blank">    
@@ -36,7 +36,7 @@ export default defineComponent({
         </div>
 
 
-        <img src="./images/red-curve.svg" alt="" class="absolute bottom-0 lg:left-0">
+        <img src="/others/red-curve.svg" alt="" class="absolute bottom-0 lg:left-0">
     </div>
 </template>
 

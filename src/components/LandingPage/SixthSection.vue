@@ -30,13 +30,13 @@
 
         <div class="relative flex flex-col items-center gap-6 w-full">
             <div class="flex items-end gap-6 md:flex-row flex-col">
-                <img src="./images/first-image-in-the-build-a-successful-tech-career-section.svg" class="z-10 w-full" alt="training image">
-                <img src="./images/second-image-in-the-build-a-successful-tech-career-section.svg" class="z-10 w-full" alt="training image">
+                <img src="/others/first-image-in-the-build-a-successful-tech-career-section.svg" class="z-10 w-full" alt="training image">
+                <img src="/others/second-image-in-the-build-a-successful-tech-career-section.svg" class="z-10 w-full" alt="training image">
             </div>
             <div class="flex md:flex-row items-start gap-6 flex-col">
-                <img src="./images/third-image-in-the-build-a-successful-tech-career-section.svg" class="z-10 w-full" alt="training image">
-                <img src="./images/fourth-image-in-the-build-a-successful-tech-career-section.svg" class="z-10 w-full" alt="training image">
-                <img src="./images/fifth-image-in-the-build-a-successful-tech-career-section.svg" class="z-10 w-full" alt="training image">
+                <img src="/others/third-image-in-the-build-a-successful-tech-career-section.svg" class="z-10 w-full" alt="training image">
+                <img src="/others/fourth-image-in-the-build-a-successful-tech-career-section.svg" class="z-10 w-full" alt="training image">
+                <img src="/others/fifth-image-in-the-build-a-successful-tech-career-section.svg" class="z-10 w-full" alt="training image">
             </div>
             <div class="w-[600px] h-[600px] border-2 border-[#224C75] rounded-[50%] absolute z-0 left-[480px] max-[1285px]:left-[600px]"></div>
         </div>

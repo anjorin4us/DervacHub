@@ -44,8 +44,8 @@ export default defineComponent({
                     <li class="py-4  relative" @click="() => { dropAboutUsOptions = !dropAboutUsOptions}">
                         <div class="flex gap-4 w-fit mx-auto items-center cursor-pointer">
                             <p  class="md:text-[18px]" :class="dropAboutUsOptions ? 'text-red-600' : 'text-[#224c75]'">About us</p>
-                            <img src="../assets/images/collaborate-arrow.svg" alt="" v-show="!dropAboutUsOptions">
-                            <img src="../assets/images/red-drop-arrow.svg" v-show="dropAboutUsOptions" /> 
+                            <img src="/others/collaborate-arrow.svg" alt="" v-show="!dropAboutUsOptions">
+                            <img src="/others/red-drop-arrow.svg" v-show="dropAboutUsOptions" /> 
                         </div>
                     </li>
 
@@ -60,14 +60,14 @@ export default defineComponent({
                                 <div class="flex gap-2 items-center" @click="() => { dropAboutUsOptions = !dropAboutUsOptions}">
                                     <div class="bg-gray-200 p-2 rounded-[50%] sm:block hidden">
                                         <div>
-                                            <img src="../assets/images/history-icon.svg" alt="">
+                                            <img src="/others/history-icon.svg" alt="">
                                         </div>
                                     </div> 
                                     
                                     <p class="">Profile</p>
                                 </div>
 
-                                <img src="../assets/images/forward-arrow-in-collaborate.svg" alt="">
+                                <img src="/others/forward-arrow-in-collaborate.svg" alt="">
                             </div>
                         </router-link>
 
@@ -78,14 +78,14 @@ export default defineComponent({
                                 <div class="flex gap-2 items-center" @click="() => { dropAboutUsOptions = !dropAboutUsOptions}">
                                     <div class="bg-gray-200 p-2 rounded-[50%] sm:block hidden">
                                         <div>
-                                            <img src="../assets/images/Team-icon.svg" alt="">
+                                            <img src="/others/Team-icon.svg" alt="">
                                         </div>
                                     </div> 
                                         
                                     <p class="">Co-workspace</p>
                                 </div>
 
-                                <img src="../assets/images/forward-arrow-in-collaborate.svg" alt="">
+                                <img src="/others/forward-arrow-in-collaborate.svg" alt="">
                             </div>
                         </router-link>
 
@@ -97,14 +97,14 @@ export default defineComponent({
                                 <div class="flex gap-2 items-center" @click="() => { dropAboutUsOptions = !dropAboutUsOptions}">
                                     <div class="bg-gray-200 p-2 rounded-[50%] sm:block hidden">
                                         <div>
-                                            <img src="../assets/images/Faqs-icon.svg" alt="">
+                                            <img src="/others/Faqs-icon.svg" alt="">
                                         </div>
                                     </div> 
                                     
                                     <p class="">FAQS</p>
                                 </div>
 
-                                <img src="../assets/images/forward-arrow-in-collaborate.svg" alt="">
+                                <img src="/others/forward-arrow-in-collaborate.svg" alt="">
                             </div>
                         </router-link>
 
@@ -117,14 +117,14 @@ export default defineComponent({
                                 <div class="flex gap-2 items-center" @click="() => { dropAboutUsOptions = !dropAboutUsOptions}">
                                     <div class="bg-gray-200 p-2 rounded-[50%] sm:block hidden">
                                         <div>
-                                            <img src="../assets/images/career-icon.svg" alt="">
+                                            <img src="/others/career-icon.svg" alt="">
                                         </div>
                                     </div> 
                                     
                                     <p class="">Career</p>
                                 </div>
 
-                                <img src="../assets/images/forward-arrow-in-collaborate.svg" alt="">
+                                <img src="/others/forward-arrow-in-collaborate.svg" alt="">
                             </div>
                         </router-link>
 
@@ -137,14 +137,14 @@ export default defineComponent({
                                 <div class="flex gap-2 items-center" @click="() => { dropAboutUsOptions = !dropAboutUsOptions}">
                                     <div class="bg-gray-200 p-2 rounded-[50%] sm:block hidden">
                                         <div>
-                                            <img src="../assets/images/testimonial-icon.svg" alt="">
+                                            <img src="/others/testimonial-icon.svg" alt="">
                                         </div>
                                     </div> 
                                     
                                     <p class="">Testimonials</p>
                                 </div>
 
-                                <img src="../assets/images/forward-arrow-in-collaborate.svg" alt="">
+                                <img src="/others/forward-arrow-in-collaborate.svg" alt="">
                             </div>
                         </router-link>
                     </div>

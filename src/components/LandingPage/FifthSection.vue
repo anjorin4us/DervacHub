@@ -48,7 +48,7 @@
                 <p class="lg:text-xl md:text-xl text-sm text-gray-700">We offer carefully organized training schedules that are tailored to meet the availability of our students and learners</p>
             </div>
             <div class="flex flex-col gap-20 md:flex-row items-center">
-                <img src="./images/gentle-coder-in-training-schedule-section.svg" class="image md:w-[50%] z-0" alt="">
+                <img src="/others/gentle-coder-in-training-schedule-section.svg" class="image md:w-[50%] z-0" alt="">
 
                 <div class="w-full flex flex-col gap-8 md:gap-6">
                     <!-- first trainingSchedules -->

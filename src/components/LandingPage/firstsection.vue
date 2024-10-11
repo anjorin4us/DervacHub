@@ -38,7 +38,7 @@ export default defineComponent({
                         <img src="/fellows/adam.jpg" alt="" class="flex-none w-[50px] h-[50px] block rounded-[50%]">
                         <div class="flex-none">
                             <router-link to="/fellows">
-                                <img src="./images/Avatar-add-button.svg" alt="" >
+                                <img src="/others/Avatar-add-button.svg" alt="" >
                             </router-link>
                         </div>
                     </div>
@@ -61,7 +61,7 @@ export default defineComponent({
             </div>
 
             <!-- The red curve below  -->
-            <img src="./images/red-curve.svg" alt="" class="absolute bottom-0 left-0">
+            <img src="/others/red-curve.svg" alt="" class="absolute bottom-0 left-0">
         </div>
 
 
@@ -75,7 +75,7 @@ export default defineComponent({
                 </div>
 
                 <div class="px-4 pt-4 pb-9 text-[#224c75]">
-                    <img class="w-[25px]" src="../../assets/images/dervac-main-logo.png" alt="">
+                    <img class="w-[25px]" src="/others/dervac-main-logo.png" alt="Logo">
 
                     <p class="italic mt-2"><q>Gain the skills you need to land your dream job</q></p>
                 </div>
@@ -89,7 +89,7 @@ export default defineComponent({
                 </div>
 
                 <div class="px-4 pt-4 pb-9 text-[#224c75]">
-                    <img class="w-[25px]" src="../../assets/images/dervac-main-logo.png" alt="">
+                    <img class="w-[25px]" src="/others/dervac-main-logo.png" alt="">
 
                     <p class="italic mt-2"><q>Get trained and mentored by industry experts</q></p>
                 </div>
@@ -98,7 +98,7 @@ export default defineComponent({
             
 
             <!-- The blue curve beside the two images -->
-            <img src="./images/blue-curve.svg" alt="" class=" absolute lg:h-[520px] lg:w-[520px] right-[50px] top-8">
+            <img src="/others/blue-curve.svg" alt="" class=" absolute lg:h-[520px] lg:w-[520px] right-[50px] top-8">
         </div>        
     </div>
 
