@@ -28,14 +28,14 @@ export default defineComponent({
 
         <div class="flex flex-col items-center gap-4">
             <div class="flex items-end md:gap-4 gap-6 md:flex-row flex-col">
-                <img src="others/first-image-in-the-build-a-successful-tech-career-section.svg" alt="" class="block">
-                <img src="others/second-image-in-the-build-a-successful-tech-career-section.svg" alt="" class="block">
+                <img src="/others/first-image-in-the-build-a-successful-tech-career-section.svg" alt="" class="block">
+                <img src="/others/second-image-in-the-build-a-successful-tech-career-section.svg" alt="" class="block">
             </div>
 
             <div class="flex md:items-start items-center md:gap-4 gap-6 md:flex-row flex-col">
-                <img src="others/third-image-in-the-build-a-successful-tech-career-section.svg" alt="" class="block">
-                <img src="others/fourth-image-in-the-build-a-successful-tech-career-section.svg" alt="" class="block">
-                <img src="others/fifth-image-in-the-build-a-successful-tech-career-section.svg" alt="" class="lg:block md:hidden block">
+                <img src="/others/third-image-in-the-build-a-successful-tech-career-section.svg" alt="" class="block">
+                <img src="/others/fourth-image-in-the-build-a-successful-tech-career-section.svg" alt="" class="block">
+                <img src="/others/fifth-image-in-the-build-a-successful-tech-career-section.svg" alt="" class="lg:block md:hidden block">
             </div>
         </div>
 
