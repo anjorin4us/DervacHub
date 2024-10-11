@@ -22,7 +22,7 @@
                             <p class="text-[#475467] font-normal">We offer regular training programs and fellowship programs. Join the fellowship program that helps you secure a future in tech. Our fellowship curriculum offers direct practical experience.</p>
                         </div>
 
-                        <img src="/pattern-1.png" class="lg:block hidden " alt="pattern">
+                        <img src="/others/pattern-1.png" class="lg:block hidden " alt="pattern">
                     </div>
                     <div class="flex lg:justify-between justify-center lg:gap-[3rem] md:gap-[2rem] lg:flex-row flex-col gap-[2rem] relative z-[0]">
                         <div class="flex flex-col gap-4 rounded-[20px] bg-[#FFF2F8] p-4 max-[425px]:text-center max-[425px]:items-center">
